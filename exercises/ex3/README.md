@@ -1,57 +1,114 @@
 # Exercise 3 - Create a Work Zone Page and Space
 
-In this exercise, you will create a custom workpage and organize it within a space, which is the main navigation concept in SAP Build Work Zone sites. You will then assign the space and page to a pre-configured custom role so that the right users can access it when they visit the site.
+In this exercise, you will create a custom page and organize it in a space to make it visible in the site navigation, then assign it to a role so the right users can access it. You will create an entry page for employees with some self services and some purchaser specific cards.
 
 > [!NOTE]
-> In SAP Build Work Zone sites (as opposed to workspaces), **spaces** provide the top-level navigation structure, and **pages** contain the actual content — widgets, cards, and apps. A space can group multiple related pages together. Spaces and pages are assigned to roles, which controls who can see them.
+> In SAP Build Work Zone sites, **spaces** provide the top-level navigation structure, and **pages** contain the actual content — widgets, cards, and apps. A space can group multiple related pages together. Spaces and pages are assigned to roles, which controls who can see them.
+
+---
 
 ## <a id="exercise-31-create-a-new-page"></a> Exercise 3.1 - Create a New Page
 
-After completing these steps you will have created a new workpage with a basic layout that is ready for content.
+### What you'll achieve
+After completing these steps you will have created a new page with employee self-service apps and cards.
 
-1. In the SAP Build Work Zone Administration Console, navigate to **Pages** in the left-hand menu.
+---
 
-2. Click **+ New Page** and give your page a meaningful name (e.g. **My Overview Page ###**, replacing ### with your participant number).
+### Steps
 
-3. The page editor opens. Add a section to the page using the **+ Add Section** button and select **Freestyle** as the layout.
+1. **Navigate to Content Manager** — go back to the browser tab with your Work Zone administration environment. If you are still on the Role Assignments area, first navigate back to the Site Directory via the breadcrumb to see the left-hand menu. Then click **Content Manager**.
 
-4. Add a **Text** widget to the section by clicking **Add Content** and selecting the text widget from the widget gallery. Enter a short welcome message of your choice.
+2. **Create a new page** — in the Content Manager, click **Create** and select **Page**. The page editor opens.
 
-5. Click **Save** to save your page.
+3. **Enter a title** — enter a meaningful title (e.g. **Overview ###**, replacing ### with your participant number). If you want, you can also add a description.
+
+4. **Add a first section** — click **Add Section** and enter the header **Employee Services**.
+
+5. **Open the App Finder** — click **Add Content** in the section. This opens the App Finder which allows you to add both tiles and cards to your page.
+
+6. **Add cards** — move the switch on top of the App Finder to **Cards** and add the cards **Pending Expense Approvals**, **My Goals**, **Pay Statement**, and **My Equipments**. Arrange them as you like.
+
+7. **Add a second section** — add a new section without a header and add the tiles **Manage My Timesheet**, **Projects**, **My Personal Data**, and **My Situations**.
+
+8. **Add a third section** — add a section with the header **Purchasing Insights** and add the cards ??? to this section.
+
+9. **Save your page.**
 
 > [!TIP]
-> You will add more content (UI integration cards) to this page in Exercise 4. For now, a simple text widget is enough to get started.
+> You will add more content (an additional UI integration card) to this page in Exercise 4.
+
+---
 
 ## <a id="exercise-32-create-a-space"></a> Exercise 3.2 - Create a Space and Assign the Page
 
-After completing these steps, your page will be organized inside a space that can be surfaced in the site navigation.
+### What you'll achieve
+After completing these steps your page will be organized inside a space that can be surfaced in the site navigation.
 
-1. Navigate to **Spaces** in the left-hand menu of the Administration Console.
+---
 
-2. Click **+ New Space** and give it a name (e.g. **My Space ###**, replacing ### with your participant number).
+### Steps
 
-3. Inside the space editor, click **+ Add Page** and select the page you created in Exercise 3.1.
+1. **Create a new space** — use the breadcrumb to navigate back to the Content Manager, click **Create** and select **Space**.
 
-4. Save the space.
+2. **Enter a title** — give the space a title (e.g. **Get Started ###**, replacing ### with your participant number). The title will be displayed in the menu of the site.
+
+> [!TIP]
+> You can enter a Sort Priority which determines in which position the space will be displayed. You can keep the default value 0.0 to display it to the left of the federated spaces.
+
+3. **Assign the page** — in the lower part of the screen, open the **Pages** tab. Identify the page you created in Exercise 3.1 (search for your participant number ### if needed) and turn the switch for your page to **On** in the *Assignment Status* column.
+
+4. **Save the space.**
+
+---
 
 ## <a id="exercise-33-add-to-a-custom-role"></a> Exercise 3.3 - Add the Space to a Pre-Configured Custom Role
 
-After completing these steps, the space will be visible to users who have the custom role assigned, making it accessible when they open your site.
+### What you'll achieve
+After completing these steps the space will be visible to users who have the custom role assigned, making it accessible when they open your site.
 
-1. Navigate to **Roles** in the left-hand menu.
+---
 
-2. Open the pre-configured custom role that your instructor has pointed out (e.g. **TechEd Participants**).
+Because you do not have access to the BTP cockpit in this workshop, a custom role has been preconfigured for you and already assigned to your user.
 
-3. In the role editor, go to the **Spaces** tab and click **+ Assign Space**.
+---
 
-4. Select the space you created in Exercise 3.2 and confirm the assignment.
+### Steps
 
-5. Save the role.
+1. **Navigate to Content Manager** — go back to the Content Manager using the breadcrumb.
 
-6. Navigate back to **Site Directory** and click **Preview** on your site to verify that the space appears in the site navigation for a user with this role.
+2. **Open the custom role** — find the pre-configured custom role that has been created for your user and click it. The role is called **Purchaser Custom Role + \<your participant number\>**. You can search for your participant number, or use the **All Items** filter to restrict the list to roles only.
+
+3. **Assign the space** — go to the **Spaces** tab and assign the space you created in Exercise 3.2 by turning its switch to **On** in the *Assignment Status* column.
+
+4. **Save the role.**
+
+---
+
+## <a id="exercise-34-assign-role-to-site"></a> Exercise 3.4 - Assign the Custom Role to Your Site
+
+### What you'll achieve
+After completing these steps the custom role will be assigned to your site, making the space visible to users who have that role.
+
+---
+
+For content to appear in the site, the role it is assigned to must also be assigned to the site itself. You do this in the Site Directory.
+
+### Steps
+
+1. **Open your site settings** — navigate to **Site Directory** and open the settings of your site.
+
+2. **Open the Role Assignments section** — go to the **Role Assignments** section and make sure you are on the **Roles** tab.
+
+3. **Assign the custom role** — find the **Purchaser Custom Role + \<your participant number\>** and turn its switch to **On** in the *Assignment Status* column.
+
+4. **Save your changes.**
+
+5. **Verify in the site** — click **Go to Site** on your site and confirm that the new space appears in the site navigation.
+
+---
 
 ## Summary
 
-You have created a custom workpage and organized it in a space, then assigned the space to a pre-configured custom role. The page is now accessible to users with that role.
+You created a page, organized it in a space, assigned the space to a role, and assigned that role to your site so it appears in the site navigation for the right users.
 
 Continue to - [Exercise 4 - Add UI Integration Cards](../ex4/README.md)
