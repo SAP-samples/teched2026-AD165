@@ -1,48 +1,62 @@
-# Containing Files
-
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
-
-2. The REUSE.toml file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the REUSE.toml in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
-
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
-
-# Session ID - Session Title
+# AD165 - Boost User Productivity with AI Assistant Joule and Personal My Space for SAP Build Work Zone
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2026 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2026 session **AD165 - Boost user productivity with AI assistant Joule and personal My Space for SAP Build Work Zone**.
 
 ## Overview
 
-This session introduces attendees to...
+In this hands-on session, you will explore how SAP Build Work Zone enables organizations to create modern, AI-powered digital workplace experiences. Starting from scratch, you will set up a Work Zone site, configure key features including the AI assistant Joule, integrate business content from backend systems, and build custom pages and spaces. You will then enhance those pages with UI integration cards and activate the personal My Space feature, before stepping into the end-user role to experience Joule and My Space in action. Every feature you configure maps directly to a user productivity gain — less time switching apps, less hunting for information, and a personalized experience that adapts to individual work patterns.
+
+By the end of this session you will have:
+- Created and configured a Work Zone site with Joule, language, shell bar, and display settings
+- Connected and surfaced business content through federation and channel management
+- Built a custom Work Zone page and space and assigned them to a role
+- Added UI integration cards to enrich your page with live business data
+- Enabled My Space so end users can build their own personal landing page
+- Experienced the full end-user journey, including AI-assisted interactions with Joule
+- Accessed the site from a mobile device using the SAP Joule Work app
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+- Access to a pre-configured SAP Build Work Zone standard edition environment (provided during the session)
+- A modern web browser (Google Chrome is recommended)
+- No prior experience with SAP Build Work Zone is required
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+- [Exercise 1 - Create a Site and Configure Basic Settings](exercises/ex1/)
+    - [Exercise 1.1 - Create a New Site (New Site Experience)](exercises/ex1#exercise-11-create-a-new-site)
+    - [Exercise 1.2 - Enable the New Shell Bar](exercises/ex1#exercise-12-new-shell-bar)
+    - [Exercise 1.3 - Configure Display Settings](exercises/ex1#exercise-13-display-settings)
+    - [Exercise 1.4 - Configure Languages](exercises/ex1#exercise-14-configure-languages)
+    - [Exercise 1.5 - Enable Joule](exercises/ex1#exercise-15-enable-joule)
+- [Exercise 2 - Integrate Business Content](exercises/ex2/)
+    - [Exercise 2.1 - Get to Know the Admin Environment](exercises/ex2#exercise-21-admin-environment)
+    - [Exercise 2.2 - Get to Know the Channel Manager and Learn About Federation](exercises/ex2#exercise-22-get-to-know-the-channel-manager)
+    - [Exercise 2.3 - Assign a Content Channel or Single Roles to Your Site](exercises/ex2#exercise-23-assign-content)
+    - [Exercise 2.4 - Open Your Site in Runtime](exercises/ex2#exercise-24-preview-your-site)
+- [Exercise 3 - Create a Work Zone Page and Space](exercises/ex3/)
+    - [Exercise 3.1 - Create a New Page](exercises/ex3#exercise-31-create-a-new-page)
+    - [Exercise 3.2 - Create a Space and Assign the Page](exercises/ex3#exercise-32-create-a-space)
+    - [Exercise 3.3 - Add the Space to a Pre-Configured Custom Role](exercises/ex3#exercise-33-add-to-a-custom-role)
+    - [Exercise 3.4 - Assign the Custom Role to Your Site](exercises/ex3#exercise-34-assign-role-to-site)
+- [Exercise 4 - Add UI Integration Cards](exercises/ex4/)
+    - [Exercise 4.1 (Optional) - Explore the UI Cards in Card Explorer](exercises/ex4#exercise-41-card-explorer)
+    - [Exercise 4.2 - Upload a Card Package](exercises/ex4#exercise-42-upload-a-card-package)
+    - [Exercise 4.3 - Use a Card on Your Page](exercises/ex4#exercise-43-use-a-card-on-your-page)
+    - [Exercise 4.4 - Preview the Site](exercises/ex4#exercise-44-preview-the-site)
+- [Exercise 5 - Enable My Space](exercises/ex5/)
+    - [Exercise 5.1 - Enable My Space for Your Site](exercises/ex5#exercise-51-enable-my-space)
+- [Exercise 6 - Explore the Site as an End User](exercises/ex6/)
+    - [Exercise 6.1 - Explore What Joule Can Do for You](exercises/ex6#exercise-61-explore-joule)
+    - [Exercise 6.2 - Enable My Space](exercises/ex6#exercise-62-enable-my-space)
+    - [Exercise 6.3 - Start Building Your Personal Page](exercises/ex6#exercise-63-go-to-my-space)
+    - [Optional: Change the Menu to Side Navigation](exercises/ex6#optional-side-navigation)
+- [Exercise 7 - Access the Site on the Joule Work Mobile App](exercises/ex7/)
+    - [Exercise 7.1 - Enable the Joule Work Mobile App for Your Site](exercises/ex7#exercise-71-enable-joule-work-mobile-app)
+    - [Exercise 7.2 - Access Your Site on the Mobile App](exercises/ex7#exercise-72-access-on-mobile)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
@@ -50,9 +64,9 @@ Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribut
 ## Code of Conduct
 Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples/.github/blob/main/CODE_OF_CONDUCT.md).
 
-## How to obtain support
+## How to Obtain Support
 
 Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
 
 ## License
-Copyright (20xx-)20xx SAP SE or an SAP affiliate company and <your-project> contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/<your-project>).
+Copyright (2026-2026) SAP SE or an SAP affiliate company and teched2026-AD165 contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/teched2026-AD165).

@@ -1,26 +1,44 @@
-# Level 1 Heading
+# Getting Started
 
-In this exercise, you will...
+Welcome to the hands-on session **AD165 - Boost user productivity with AI assistant Joule and personal My Space for SAP Build Work Zone**.
 
-## Level 2 Heading
+In this introductory section, you will get an overview of the session and the tools you will be working with. Please review the introductory slides provided by your instructors before starting Exercise 1.
 
-After completing these steps you will have....
+---
 
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
+### What You Will Build
 
-2.	Insert this code.
-``` abap
- DATA(params) = request->get_form_fields(  ).
- READ TABLE params REFERENCE INTO DATA(param) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
+Over the course of this session, you will take on the role of a Work Zone administrator and an end user. As an administrator, you will:
+
+- **Set up a new Work Zone site** from scratch and configure it with Joule, language, mobile, and navigation settings
+- **Connect business content** from backend systems using the Channel Manager
+- **Build a custom page and space** and assign them to a role
+- **Upload and configure UI integration cards**
+- **Enable the personal My Space** feature
+
+As an end user, you will then explore the site you have built, interact with Joule, and create your own personal page using My Space.
+
+---
+
+### Prerequisites
+
+- Access to a pre-configured SAP Build Work Zone environment — your login credentials are available on your desk
+- Google Chrome browser (recommended)
+- No prior experience with SAP Build Work Zone is required
+
+---
+
+### System Access
+
+> [!IMPORTANT]
+> Please make sure to open all system links using the browser context menu: right-click and select **Open Link in New Tab** in order to keep this GitHub exercise tab open.
+
+Your instructor will provide you with the URL to your SAP Build Work Zone environment and your login credentials.
+
+---
 
 ## Summary
 
-Now that you have ... 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+You are now ready to start the exercises.
+
+Continue to - [Exercise 1 - Create a Site and Configure Basic Settings](../ex1/README.md)
