@@ -212,7 +212,7 @@ In the **Language and Region** area, users can select their preferred language f
 
    ![Purchasing Overview page with the Monitor Purchase Order Items tile highlighted](images/Image_02_0200.png)
 
-6. **Filter the data** — in the app, select **EUR** as the currency. You can simply type EUR into the filter field below *Display Currency* or use the value help. Then click **Go** to see the list of open purchase order items.
+6. **Display data** — in the app, select **EUR** as the *Display Currency** because this is a mandatory field. You can simply type EUR into the entry field or use the value help. Then click **Go** to see the list of open purchase order items.
 
    ![Monitor Purchase Order Items app with EUR entered as the display currency and the Go button highlighted](images/Image_02_0210.png)
 
@@ -222,6 +222,6 @@ In the **Language and Region** area, users can select their preferred language f
 
 ## Summary
 
-You explored the admin environment of SAP Build Work Zone, standard edition. You connected your site to business content from an S/4HANA system using the Channel Manager, explored the federated content in the Content Manager, assigned a content channel and roles to your site, and saw the federated apps appear in runtime.
+You explored the admin environment of SAP Build Work Zone, standard edition. You connected your Work Zone instance to business content from an S/4HANA system using the Channel Manager, explored the federated content in the Content Manager, assigned a content channel and roles to your site, and saw the federated apps appear in runtime.
 
 Continue to - [Exercise 3 - Create a Work Zone Page and Space](../ex3/README.md)

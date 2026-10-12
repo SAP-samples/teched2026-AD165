@@ -10,25 +10,25 @@ In this exercise, you will create a custom page and organize it in a space to ma
 ## <a id="exercise-31-create-a-new-page"></a> Exercise 3.1 - Create a New Page
 
 ### What you'll achieve
-After completing these steps you will have created a new page with employee self-service apps and cards.
+By completing these steps, you've built a Work Zone page that brings employee self-service apps and purchasing cards together in one place. This is the same approach you'd use to consolidate content from multiple sources — different backend systems, custom apps deployed on SAP BTP, or any combination of both. The cards surface key information directly on the page, so users get what they need at a glance — without having to navigate somewhere else first.
 
 ---
 
 ### Steps
 
-1. **Navigate to Content Manager** — go back to the browser tab with your Work Zone administration environment. If you are still on the Role Assignments area, first navigate back to the Site Directory via the breadcrumb to see the left-hand menu. Then click **Content Manager**.
+1. **Navigate to Content Manager** — go back to the browser tab with your Work Zone administration environment. If you are still on the *Role Assignments* tab, first navigate back to the *Site Directory* via the breadcrumb to see the left-hand menu. Then click **Content Manager**.
 
 2. **Create a new page** — in the Content Manager, click **Create** and select **Page**. The page editor opens.
 
-3. **Enter a title** — enter a meaningful title (e.g. **Overview ###**, replacing ### with your participant number). If you want, you can also add a description.
+3. **Enter a title** — enter a meaningful title (e.g. **Overview**), and enter your participant number as description, so you will be able to find your page easily later. If you want, you can also add a longer description.
 
 4. **Add a first section** — click **Add Section** and enter the header **Employee Services**.
 
-5. **Open the App Finder** — click **Add Content** in the section. This opens the App Finder which allows you to add both tiles and cards to your page.
+5. **Find cards and tiles** — click **Add Content** in the section. This opens the **App Finder** which allows you to add both tiles and cards to your page.
 
-6. **Add cards** — move the switch on top of the App Finder to **Cards** and add the cards **Pending Expense Approvals**, **My Goals**, **Pay Statement**, and **My Equipments**. Arrange them as you like.
+6. **Add cards** — move the switch on top of the App Finder to **Cards** and click the card **Pending Expense Approvals** to add it. You get back to the page view. To add further cards, click the **+** sign next to the cards to add a new column and do the same steps to add the **My Goals**, **Pay Statement**, and **My Equipments** cards. Arrange them as you like.
 
-7. **Add a second section** — add a new section without a header and add the tiles **Manage My Timesheet**, **Projects**, **My Personal Data**, and **My Situations**.
+7. **Add a second section** — add a new section by clicking the **+** sign below the current section, leave the header and add the tiles **Manage My Timesheet**, **Projects**, **My Personal Data**, and **My Situations**.
 
 8. **Add a third section** — add a section with the header **Purchasing Insights** and add the cards ??? to this section.
 
