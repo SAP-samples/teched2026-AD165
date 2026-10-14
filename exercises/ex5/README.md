@@ -16,13 +16,24 @@ After completing these steps My Space will be available to all users of your sit
 
 ### Steps
 
-1. **Open your site settings** — navigate to **Site Directory** and open the settings of your site.
+1. **Open your site settings**: Go back to the tab with the *Work Zone administration environment* and navigate to **Site Directory**. Then open the settings of your site.
+
+   ![Navigate to Site Directory and open site settings](images/Image_01_0010.png)
+
+> [!TIP]
+> If you do not see the site directly in the Site Directory, you can search for your participant ID. 
 
 2. **Navigate to User Capabilities** — go to the **User Capabilities** tab in the site settings.
 
-3. **Enable My Space** — locate the **My Space** setting and toggle it to **On**.
+3. **Switch to Edit Mode** - click the **Edit** button in the upper right corner.
 
-4. **Save your changes.**
+   ![User Capabilities tab with Edit button](images/Image_01_0020.png)
+
+4. **Enable My Space** — locate the **My Space** setting and toggle it to **On**.
+
+5. **Save your changes.**
+
+   ![My Space toggled On in User Capabilities, then save](images/Image_01_0030.png)
 
 > [!TIP]
 > Once My Space is enabled, users will find a dedicated **My Space** entry in their User settings. In the next exercise, you will learn how to enable and use My Spaces as a user. 
