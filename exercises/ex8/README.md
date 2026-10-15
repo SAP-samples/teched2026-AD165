@@ -16,7 +16,7 @@ After completing these steps the site navigation will switch from a top bar to a
 
 ### Steps
 
-1. **Access Site Settings** — navigate back to the tab with the administration environment if you still have it open.
+1. **Access the admin environment** — navigate back to the tab with the administration environment if you still have it open.
 
 2. **Open the Display settings** — access the **Site Settings** of your site again and navigate to the **Display** tab.
 

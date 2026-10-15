@@ -141,7 +141,35 @@ Notice that it automatically resizes to give an aligned view. If you want you ca
 
 ---
 
-## <a id="exercise-44-preview-the-site"></a> Exercise 4.4 - Preview the Site
+## <a id="exercise-44-assign-card-role"></a> Exercise 4.4 - Assign the Package Role to Your Site
+
+### What you'll achieve
+After completing these steps the role that came with the card package will be assigned to your site, making the card visible to users who have that role.
+
+---
+
+The content package you uploaded in Exercise 4.2 includes not only the card itself but also a role that controls who can see it. For the card to appear for a user, that role must be assigned to both the site and the user.
+
+### Steps
+
+1. **Open your site settings** — navigate to **Site Directory** and open the settings of your site by clicking the cog icon.
+
+2. **Open Role Assignments** — in the left-hand navigation, click **Role Assignments** and make sure you are on the **Roles** tab.
+
+3. **Switch to Edit mode** — click the **Edit** button.
+
+4. **Find the package role** — search for your participant number **###**. You should see the role that was created from your card package.
+
+5. **Assign the role** — turn its switch to **On** in the *Assignment Status* column.
+
+6. **Save your changes.**
+
+> [!IMPORTANT]
+> The role also needs to be assigned to your user to make the card visible to you at runtime. Since user role assignments are managed in the SAP BTP cockpit, please ask your instructor to assign the package role to your user.
+
+---
+
+## <a id="exercise-45-preview-the-site"></a> Exercise 4.5 - Preview the Site
 
 ### What you'll achieve
 After completing these steps you will have seen your card rendering live data on your page.
@@ -162,6 +190,6 @@ After completing these steps you will have seen your card rendering live data on
 
 ## Summary
 
-You uploaded a UI integration card package, placed a card on your custom page, and confirmed that it displays live data in the site.
+You uploaded a UI integration card package, placed a card on your custom page, assigned the package role to your site, and confirmed that it displays live data in the site.
 
 Continue to - [Exercise 5 - Enable My Space](../ex5/README.md)
