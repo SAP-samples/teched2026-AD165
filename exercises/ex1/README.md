@@ -65,6 +65,9 @@ When a site is created you land directly on **Site Settings**, with the **Proper
    - **Logo Alt Text:** `Cat logo`
    - **Custom Label:** `SAP TechEd Purchaser Site`
 
+   > [!NOTE]
+   > The changes to the logo and the label that you just made only apply to the runtime of your site. You can change them for the administration environment only by assigning a complete new theme.
+
 
 4. **Go to Display tab**: do not save your changes yet, but navigate to the **Display tab** to change some further settings.
 

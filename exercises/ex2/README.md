@@ -166,14 +166,16 @@ You have two options: assign individual roles for fine-grained control, or assig
 
 3. **Assign the S/4HANA channel**: there are no channels assigned to your site yet, click the **Assign Channels** button. This switches to Edit mode. Then move the switch for the **SAP S/4HANA Cloud** channel to **On**.
 
-   ![Role Assignments — Content Channels tab showing the S4HANA Public Cloud toggle highlighted](images/Image_02_0140.png)
+   ![Role Assignments — Display Assign Channels button](images/Image_02_0140.png)
+
+4. **Assign two further channels**: now also assign the two content channels **Demo Generic Package** and **TechEd Employee Services Package**. They contain UI integration cards that you will use later to enrich a page you are creating. 
 
 4. **Save your changes**: click Save and confirm the *Information* pop-up with **OK**.
 
-   ![Role Assignments showing the S4HANA Public Cloud channel assigned, with Go to Site and Edit highlighted](images/Image_02_0150.png)
+   ![Role Assignments showing the S4HANA Public Cloud channel and the packages assigned, with Go to Site and Edit highlighted](images/Image_02_0150.png)
 
 > [!TIP]
-> After saving, you can navigate back to the **Roles** tab to see the roles now assigned to your site from the S4HANA Public Cloud channel. Note that not all roles may appear as selected — if you prefer to assign only specific roles instead, you can do so directly from the **Roles** tab. If you do so, make sure that **Employee**, **Purchaser Role for AD165**, **Project Controller**, and **Purchaser Self-Services** are selected (use the roles with IDs starting with *~s4hana_public_cloud_*). The second SAP S/4HANA content provider was created specifically for making S/4HANA content available for SAP Joule and has some different connectivity settings. Individual role assignments can only be removed via the Content Channels tab.
+> After saving, you can navigate back to the **Roles** tab to see the roles now assigned to your site from the SAP S/4HANA Cloud channel and the two packages. Note that not all roles are used in this exercise, but their assignment does not have any effect, as they are not assigned to your user. If you prefer to assign only specific roles instead, you can do so directly from the **Roles** tab, but you would need to remove the assignment of the complete content channel first. If you do so, make sure that **Employee**, **Purchaser Role for AD165**, **Project Controller**, and **Purchaser Self-Services** are selected.
 
 ---
 

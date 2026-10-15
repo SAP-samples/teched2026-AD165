@@ -83,42 +83,11 @@ Think of this as building a personal productivity cockpit: the items you add her
 
 ---
 
-## <a id="optional-side-navigation"></a> Optional - Change the Menu to Side Navigation
-
-### What you'll achieve
-After completing these steps the site navigation will switch from a top bar to a side panel, giving more horizontal space to the page content.
-
----
-
-### Steps
-
-1. **Access Site Settings** — navigate back to the tab with the administration environment if you still have it open.
-
-2. **Open the Display settings** — access the **Site Settings** of your site again and navigate to the **Display** tab.
-
-3. **Switch to Edit mode** — click the **Edit** button in the top right corner.
-
-4. **Choose a menu option** — there are three menu options available: Side, Top, and Minimized. *Top* is what was used so far, *Minimized* means that the menu is hidden and only shown when the *Menu* icon is clicked. Select **Side** to test it.
-
-5. **Save and view** — save your changes and click **Go to Site** to observe the result in the site.
-
-Notice that the spaces are displayed with icons in the site menu. The icons for the federated spaces come from the content provider system (in this case SAP S/4HANA) and can not be changed here, but you could change the icon of the space that you created before. To do so, you need to edit the space.
-
-6. **Access Content Manager** — navigate back to the tab with the administration environment and navigate to the **Content Manager**. You need to use the breadcrumb to go back to the **Site Directory** first.
-
-7. **Edit the space** — identify your *Get Started* space and open it. Click **Edit** to switch to edit mode.
-
-8. **Change the icon** — click the selector icon next to the *Icon in Side Menu* entry and choose a new icon, e.g. the *cloud* icon or the *heart-2* icon.
-
-9. **Save and view** — save your changes and navigate to the **Site Directory** to reload your site by clicking the **Go to Site** icon. Notice the new icon in the side menu.
-
-
-
-
----
-
 ## Summary
 
-You have built a Work Zone site from scratch, connected business content, created pages and spaces, added UI integration cards, enabled My Space, and experienced the full end-user journey including Joule and personal page building.
+You have built a Work Zone site from scratch, connected business content, created pages and spaces, added UI integration cards, enabled My Space, and experienced the full end-user journey including Joule and personal page building. **Congratulations — you have completed all the core exercises of this session!**
 
-Continue to - [Exercise 7 - Access the Site on the Joule Work Mobile App](../ex7/README.md)
+If you still have time, there are two optional exercises you can explore:
+
+- [Exercise 7 (Optional) - Access the Site on the Joule Work Mobile App](../ex7/README.md)
+- [Exercise 8 (Optional) - Change the Site Navigation to Side Menu](../ex8/README.md)

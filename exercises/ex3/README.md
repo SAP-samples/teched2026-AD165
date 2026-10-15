@@ -48,7 +48,7 @@ By completing these steps, you've built a Work Zone page that brings employee se
 
    ![Second section with Purchasing Trends and Supplying by Departments cards](images/Image_03_0080.png)
 
-8. **Add another cell for tiles**: click the **+** sign to the right of the *Supplying by Departments* card again. This time, you will add some dynamic tiles. Use the search to add the tiles for the following apps **Operational Supplier Evaluation**, **Off-Contract Spend**, and **Overdue Purchase Order Items**. You can find them and click their checkbox one by one. Make sure that you always select the tile coming from *System* **S4HANA_Public_Cloud**. Only after selecting all tiles, click the **Add(3)** button at the lower right corner.
+8. **Add another cell for tiles**: click the **+** sign to the right of the *Supplying by Departments* card again. This time, you will add some dynamic tiles. Use the search to add the tiles for the following apps **Operational Supplier Evaluation**, **Off-Contract Spend**, and **Overdue Purchase Order Items**. You can find them and click their checkbox one by one. After selecting all tiles, click the **Add(3)** button in the lower right corner.
 
    ![Search for tiles and select them, then click Add(3)](images/Image_03_0090.png)
 
@@ -125,25 +125,27 @@ After completing these steps the custom role will be assigned to your site, maki
 
 ---
 
-For content to appear in the site, the role it is assigned to must also be assigned to the site itself. You do this in the Site Directory.
+For content to appear in the site, the role it is assigned to must also be assigned to the site itself. You do this in the Site Settings.
 
 ### Steps
 
-1. **Open your site settings**: navigate to **Site Directory** and open the settings of your site.
+1. **Open the site settings**: navigate to **Site Directory** and open the settings of your site.
 
    ![Navigate to Site Directory](images/Image_03_0170.png)
 
    ![Open site settings from the Site Directory](images/Image_03_0180.png)
 
-2. **Open the Role Assignments section**: go to the **Role Assignments** section and make sure you are on the **Roles** tab.
+2. **Open the Role Assignments section**: go to the **Role Assignments** section and make sure you are on the **Roles** tab. You see a long list of roles assigned to your site. 
 
 3. **Switch to Edit mode**: click the **Edit** button.
 
-4. **Assign the custom role**: find the **Purchaser Custom Role + \<your participant number\>** and turn its switch to **On** in the *Assignment Status* column.
+   ![Role Assignments](images/Image_03_0190.png)
+
+4. **Assign the custom role**: enter your *participant number* into the search field to find the **Purchaser Custom Role + \<your participant number\>** and turn its switch to **On** in the *Assignment Status* column.
 
 5. **Save your changes.**
 
-   ![Assign the custom role in Role Assignments and save](images/Image_03_0190.png)
+   ![Assign the custom role in Role Assignments and save](images/Image_03_0195.png)
 
 6. **Verify in the site**: click **Go to Site** on your site and confirm that the new space appears in the site navigation. Since the space is the first one in the menu, you immediately see the page you created.
 
