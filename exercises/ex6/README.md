@@ -27,22 +27,36 @@ Let's ask **Joule** to help with this scenario.
 
 1. **Open your site** — Click **Go to Site** again to navigate to your site.
 
+![Screenshot 001](images/image_06_001.png)
+
 2. **Open Joule** — locate the **Joule** icon in the shell bar and click it to open the Joule panel.
+   
+![Screenshot 002](images/image_06_002.png) 
 
 3. Enter the following prompt:
 
    **Prompt:** `How can I manage my in-house repairs?`
 
    Review the summary provided by Joule about managing in-house repairs.
-   
+
+![Screenshot 003](images/image_06_003.png) 
+
 4. In the Joule response, click the suggested: **In-House Repair**
 
+![Screenshot 004](images/image_06_004.png)
+
 5. Joule will display several options. Click **Create** to proceed.
-   
+
+![Screenshot 005](images/image_06_005.png)   
+
 6. Click **Open** to open the application.
-  
+
+![Screenshot 006](images/image_06_006.png)  
+
 7. The application will open in a new tab, browse the list of existing in-house repairs.
-   
+
+![Screenshot 007](images/image_06_007.png)   
+
 8. Close the tab now. 
 
 ---
