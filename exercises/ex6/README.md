@@ -77,11 +77,19 @@ My Space is a personal page that each user can configure independently — addin
 
 1. **Open User Settings** — click the **User Icon** in the shell bar, then select **Settings**. Notice that there is now a new entry for enabling or disabling the personalization with My Space.
 
+![Screenshot 008](images/image_06_008.png)
+
 2. **Go to the My Space tab** — in the Settings dialog, open the **My Space** tab.
+
+![Screenshot 009](images/image_06_009.png)
 
 3. **Enable My Space** — select the checkbox **Show My Space** and click **Save**.
 
+![Screenshot 010](images/image_06_010.png)
+
 4. **See it in the menu** — Work Zone refreshes and takes you directly to the new **My Space** tab that now appears as the first entry in the navigation menu.
+
+![Screenshot 011](images/image_06_011.png)
 
 ---
 
