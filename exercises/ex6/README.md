@@ -29,13 +29,21 @@ Let's ask **Joule** to help with this scenario.
 
 2. **Open Joule** — locate the **Joule** icon in the shell bar and click it to open the Joule panel.
 
-3. **Ask Joule some questions** — try one or more of the following:
-   - *"Where can I find my leave requests?"*
-   - *"What is the latest news in the company?"*
-   - *"Show me my tasks."*
+3. Enter the following prompt:
 
-4. **Explore Joule's responses** — see whether Joule can navigate you to the right part of the site or surface relevant information.
+   **Prompt:** `How can I manage my in-house repairs?`
 
+   Review the summary provided by Joule about managing in-house repairs.
+   
+4. In the Joule response, click the suggested: **In-House Repair**
+
+5. Joule will display several options. Click **Create** to proceed.
+   
+6. Click **Open** to open the application.
+  
+7. The application will open in a new tab, browse the list of existing in-house repairs.
+   
+8. Close the tab now. 
 
 ---
 
