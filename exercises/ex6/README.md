@@ -106,17 +106,31 @@ Think of this as building a personal productivity cockpit: the items you add her
 
 1. **Start building** — your My Space page is initially empty, but it is already in editing mode. Click **Add Content** to start adding tiles or cards.
 
+![Screenshot 012](images/image_06_012.png)
+
 2. **Add further sections or cells** — click the **+** sign at the bottom of the current sections to add further sections below or hover the section to see further **+** signs to the left and right to add more columns.
+
+![Screenshot 013](images/image_06_013.png)
 
 3. **Add a section title** — click into the entry field next to *Header* to add a title to your section.
 
+![Screenshot 014](images/image_06_014.png)
+
 4. **Remove a column or section** — you can always delete columns or sections by clicking the cross icon that appears when hovering them.
+
+![Screenshot 015](images/image_06_015.png)
 
 5. **Add content** — click **Add Content** and explore the available cards and tiles. Add at least one card and one tile to your page.
 
+![Screenshot 016](images/image_06_016.png)
+
 6. **Rearrange the content** — drag and drop items into the position you prefer.
 
+![Screenshot 017](images/image_06_017.png)
+
 7. **Save your page**. You automatically exit edit mode when saving. You can switch back to it by selecting **Edit Current Page** from the User Menu.
+
+![Screenshot 018](images/image_06_018.png)
 
 ---
 
