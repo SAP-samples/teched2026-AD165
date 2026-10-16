@@ -16,6 +16,13 @@ After completing these steps you will have discovered some key capabilities of J
 
 ---
 
+### Scenario: Managing In-House Repairs
+
+As a purchaser, you are responsible for managing procurement activities and supporting maintenance processes. A colleague has reported an equipment issue that requires an in-house repair. You now want to find the right application to create a repair request and track existing repairs.
+
+Let's ask **Joule** to help with this scenario.
+  
+
 ### Steps
 
 1. **Open your site** — Click **Go to Site** again to navigate to your site.
