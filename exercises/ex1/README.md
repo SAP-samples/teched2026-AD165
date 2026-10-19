@@ -3,7 +3,7 @@
 In this exercise, you will create a brand-new Work Zone site using the New Site Experience and configure the most important site-level settings. This includes enabling the new shell bar, setting the view mode, enabling the AI assistant Joule, setting up language options, and adding a custom logo. At the end of this exercise you will have a configured site ready to receive content.
 
 > [!NOTE]
-> SAP Build Work Zone, advanced edition lets you build digital workspace solutions to increase user productivity and engagement. It centralizes access to relevant business applications, processes, information, and communication in a unified entry point that your users can access from any device.
+> SAP Build Work Zone lets you build digital workspace solutions to increase user productivity and engagement. It centralizes access to relevant business applications, processes, and insights in a unified entry point that your users can access from any device.
 
 ---
 

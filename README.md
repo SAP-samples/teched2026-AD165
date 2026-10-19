@@ -57,6 +57,14 @@ By the end of this session you will have:
 - [Exercise 7 - Access the Site on the Joule Work Mobile App](exercises/ex7/)
     - [Exercise 7.1 - Enable the Joule Work Mobile App for Your Site](exercises/ex7#exercise-71-enable-joule-work-mobile-app)
     - [Exercise 7.2 - Access Your Site on the Mobile App](exercises/ex7#exercise-72-access-on-mobile)
+- [Exercise 9 - Create, Package, and Deploy Your Own UI Integration Card](exercises/ex9/)
+    - [Exercise 9.1 (Optional) - Explore the Card Explorer](exercises/ex9#exercise-91-card-explorer)
+    - [Exercise 9.2 - Edit and Download Your Card from the Card Explorer](exercises/ex9#exercise-92-get-card)
+    - [Exercise 9.3 - Create a Content Package in SAP Business Application Studio](exercises/ex9#exercise-93-bas-package)
+    - [Exercise 9.4 - Upload the Content Package](exercises/ex9#exercise-94-upload)
+    - [Exercise 9.5 - Add the Card to Your Page](exercises/ex9#exercise-95-add-to-page)
+    - [Exercise 9.6 - Assign the Package Role to Your Site](exercises/ex9#exercise-96-assign-role)
+    - [Exercise 9.7 - Preview Your Site](exercises/ex9#exercise-97-preview)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.

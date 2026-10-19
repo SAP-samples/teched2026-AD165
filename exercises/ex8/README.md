@@ -22,7 +22,7 @@ After completing these steps the site navigation will switch from a top bar to a
 
 3. **Switch to Edit mode** — click the **Edit** button in the top right corner.
 
-4. **Choose a menu option** — there are three menu options available: Side, Top, and Minimized. *Top* is what was used so far, *Minimized* means that the menu is hidden and only shown when the *Menu* icon is clicked. Select **Side** to test it.
+4. **Choose menu option *Side*** — there are three menu options available: Side, Top, and Minimized. *Top* is what was used so far, *Minimized* means that the menu is hidden and only shown when the *Menu* icon is clicked. Select **Side** to test it.
 
 5. **Save and view** — save your changes and click **Go to Site** to observe the result in the site.
 
