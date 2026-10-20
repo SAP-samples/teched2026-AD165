@@ -10,7 +10,7 @@ In this exercise, you will first enable the Joule Work Mobile App feature for yo
 ## <a id="exercise-61-enable-joule-work-mobile-app"></a> Exercise 6.1 - Enable the Joule Work Mobile App for Your Site
 
 ### What you'll achieve
-After completing these steps, you will ahve confirmed that the Joule Work Mobile App feature is active for your site, allowing users to connect to it from their mobile device.
+After completing these steps, you will have confirmed that the Joule Work Mobile App feature is active for your site, allowing users to connect to it from their mobile device.
 
 ---
 
