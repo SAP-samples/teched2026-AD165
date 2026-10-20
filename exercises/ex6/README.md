@@ -10,7 +10,7 @@ In this exercise, you will first enable the Joule Work Mobile App feature for yo
 ## <a id="exercise-61-enable-joule-work-mobile-app"></a> Exercise 6.1 - Enable the Joule Work Mobile App for Your Site
 
 ### What you'll achieve
-After completing these steps, you will ahve confirmed that the Joule Work Mobile App feature is active for your site, allowing users to connect to it from their mobile device.
+After completing these steps, you will have confirmed that the Joule Work Mobile App feature is active for your site, allowing users to connect to it from their mobile device.
 
 ---
 
@@ -54,9 +54,22 @@ After completing these steps you will have installed the SAP Joule Work app on y
 6. **Enter your credentials** — on your mobile device, use the switch enter the same user credentials you used to log in to the workshop environment.
 
 7. **Explore the app** — once logged in, explore the home screen and the four main tabs:
-   - **Home** — your personal start page with quick access to Joule and your to-dos and favorites
+   - **Home** — your personal start page with quick access to Joule and your favourites
+     
+![Screenshot 6050](images/image_6050.png)
+
    - **Joule** — a dedicated tab for interacting with the AI assistant
+
+![Screenshot 6051](images/image_6051.png)
+
    - **Apps** — all the spaces and pages you know from the desktop experience
+
+![Screenshot 6052](images/image_6052.png)
+
+Click through one app to browse. 
+
+![Screenshot 6053](images/image_6053.png)
+
    - **To Do** — your Task Center items
 
 ---
