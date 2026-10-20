@@ -1,64 +1,63 @@
-# Exercise 7 (Optional) - Access the Site on the Joule Work Mobile App
+# Exercise 7 (Optional) - Change the Site Navigation to Side Menu
 
-In this exercise, you will first enable the Joule Work Mobile App feature for your site as an administrator, and then access your Work Zone site from a mobile device using the SAP Joule Work app.
+In this optional exercise, you will switch the site navigation from the default top bar to a side panel. You will also update the icon of the space you created earlier so it displays correctly in the new side menu.
 
 > [!NOTE]
-> The SAP Joule Work mobile app gives users native access to their Work Zone sites and business applications on iOS and Android devices. They can interact with Joule, access their spaces and pages, and manage their tasks — all from their phone. For productivity, this means approvals, task checks, and Joule interactions are no longer tied to a desk.
+> The navigation menu style is a site-wide setting that affects all users. Side navigation gives more horizontal space to page content, which can be useful on widescreen displays or when spaces have longer names. Users can still access all the same spaces and pages — the structure does not change, only the presentation.
 
 ---
 
-## <a id="exercise-71-enable-joule-work-mobile-app"></a> Exercise 7.1 - Enable the Joule Work Mobile App for Your Site
+## <a id="exercise-71-side-navigation"></a> Exercise 7.1 - Switch to Side Navigation and Update the Space Icon
 
 ### What you'll achieve
-After completing these steps the Joule Work Mobile App feature will be active for your site, allowing users to connect to it from their mobile device.
+After completing these steps the site navigation will switch from a top bar to a side panel, and your custom space will display a custom icon in the side menu.
 
 ---
 
 ### Steps
 
-1. **Open your site settings** — navigate back to the browser tab with the Admin environment open. If necessary, go to **Site Directory** and open the settings of your site.
+1. **Access the admin environment** — navigate back to the tab with the administration environment if you still have it open.
 
-2. **Navigate to User Capabilities** — go to the **User Capabilities** tab in the site settings.
+2. **Open the Display settings** — access the **Site Settings** of your site again and navigate to the **Display** tab.
 
-3. **Enable the Joule Work Mobile App** — locate the **Joule Work Mobile App** checkbox and select it.
+   ![Site Settings Display tab with Edit button highlighted](./images/Image_07_0010.png)
 
-4. **Save your changes.**
+3. **Switch to Edit mode** — click the **Edit** button in the top right corner.
 
----
+4. **Choose menu option *Side*** — there are three menu options available: Side, Top, and Minimized. *Top* is what was used so far, *Minimized* means that the menu is hidden and only shown when the *Menu* icon is clicked. Select **Side** to test it.
 
-## <a id="exercise-72-access-on-mobile"></a> Exercise 7.2 - Access Your Site on the Mobile App
+   ![Site Settings Display tab in edit mode with Side menu option selected and Save button](./images/Image_07_0020.png)
 
-### What you'll achieve
-After completing these steps you will have installed the SAP Joule Work app on your mobile device and registered it to your Work Zone site.
+5. **Save and view** — save your changes and click **Go to Site** to observe the result in the site.
 
----
+   Notice that the spaces are displayed with icons in the side menu. The icons for the federated spaces come from the content provider system (in this case SAP S/4HANA) and cannot be changed here, but you can change the icon of the space you created earlier.
 
-### Steps
+   ![Site with side navigation menu showing spaces with icons](./images/Image_07_0030.png)
 
-1. **Open the User settings in your site** — navigate to your site by clicking **Go to site**. In the site, click the **User Icon** in the shell bar, then select **Settings**.
+6. **Access Content Manager** — go back to the tab with the administration environment and navigate to the **Content Manager**. You need to use the breadcrumb to go back to the **Site Directory** first.
 
-2. **Open the Joule Work Mobile App tab** — in the Settings dialog, find and open the **Joule Work Mobile App** tab.
+7. **Open the space** — identify your *Get Started* space and open it. 
 
-3. **Select your operating system** — choose either **iOS** or **Android** depending on your device.
+   ![Content Manager with Get Started space found in search results](./images/Image_07_0040.png)
 
-4. **Install the app** — if you do not have the app installed on your device yet, use the QR code to open the App Store (iOS) or Play Store (Android) and install the **SAP Joule Work** app on your device.
+   ![Get Started space detail page with Edit button highlighted](./images/Image_07_0050.png)
 
-5. **Register to the site** — once the app is installed, go back to the desktop and switch to **Register** in the *Joule Work Mobile App* settings to scan a second QR code to register your device to this Work Zone site.
+8. **Click `Edit`** to switch to edit mode.
 
-6. **Enter your credentials** — on your mobile device, use the switch enter the same user credentials you used to log in to the workshop environment.
+8. **Change the icon** — click the selector icon next to the *Icon in Side Menu* entry and choose a new icon, e.g. the *cloud* icon or the *heart-2* icon.
 
-7. **Explore the app** — once logged in, explore the home screen and the four main tabs:
-   - **Home** — your personal start page with quick access to Joule and your to-dos and favorites
-   - **Joule** — a dedicated tab for interacting with the AI assistant
-   - **Apps** — all the spaces and pages you know from the desktop experience
-   - **To Do** — your Task Center items
+   ![Space edit form with Select Icon dialog open showing heart-2 icon](./images/Image_07_0060.png)
+
+   ![Space edit form with heart-2 icon selected and Save button highlighted](./images/Image_07_0070.png)
+
+9. **Save and view** — save your changes and navigate to the **Site Directory** to reload your site by clicking the **Go to Site** icon. Notice the new icon in the side menu.
+
+   ![Site with side navigation showing updated heart icon for the Get Started space](./images/Image_07_0080.png)
 
 ---
 
 ## Summary
 
-You have enabled the Joule Work Mobile App for your site and accessed it from a mobile device. You can now work with Joule, browse your spaces and pages, and manage tasks on the go.
-
-Continue to - [Exercise 8 (Optional) - Change the Site Navigation to Side Menu](../ex8/README.md)
+You have switched the site navigation to a side panel and updated the space icon. Both changes take effect immediately for all users of the site.
 
 Thank you for participating in **AD165 - Boost user productivity with AI assistant Joule and personal My Space for SAP Build Work Zone**.

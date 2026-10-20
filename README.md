@@ -6,16 +6,15 @@ This repository contains the material for the SAP TechEd 2026 session **AD165 - 
 
 ## Overview
 
-In this hands-on session, you will explore how SAP Build Work Zone enables organizations to create modern, AI-powered digital workplace experiences. Starting from scratch, you will set up a Work Zone site, configure key features including the AI assistant Joule, integrate business content from backend systems, and build custom pages and spaces. You will then enhance those pages with UI integration cards and activate the personal My Space feature, before stepping into the end-user role to experience Joule and My Space in action. Every feature you configure maps directly to a user productivity gain — less time switching apps, less hunting for information, and a personalized experience that adapts to individual work patterns.
+In this hands-on session, you will explore how SAP Build Work Zone enables organizations to create modern, AI-powered digital workplace experiences. Starting from scratch, you will set up a Work Zone site, configure key features including the AI assistant Joule, integrate business content from backend systems, and build custom pages and spaces. You will then activate the personal My Space feature and step into the end-user role to experience Joule and My Space in action. If time permits, you can also explore optional exercises covering mobile access, navigation customization, and building your own UI integration card. Every feature you configure maps directly to a user productivity gain — less time switching apps, less hunting for information, and a personalized experience that adapts to individual work patterns.
 
 By the end of this session you will have:
 - Created and configured a Work Zone site with Joule, language, shell bar, and display settings
 - Connected and surfaced business content through federation and channel management
 - Built a custom Work Zone page and space and assigned them to a role
-- Added UI integration cards to enrich your page with live business data
 - Enabled My Space so end users can build their own personal landing page
 - Experienced the full end-user journey, including AI-assisted interactions with Joule
-- Accessed the site from a mobile device using the SAP Joule Work app
+- Optionally: accessed the site from a mobile device, customized navigation, or built and deployed your own UI integration card
 
 ## Requirements
 
@@ -42,29 +41,25 @@ By the end of this session you will have:
     - [Exercise 3.2 - Create a Space and Assign the Page](exercises/ex3#exercise-32-create-a-space)
     - [Exercise 3.3 - Add the Space to a Pre-Configured Custom Role](exercises/ex3#exercise-33-add-to-a-custom-role)
     - [Exercise 3.4 - Assign the Custom Role to Your Site](exercises/ex3#exercise-34-assign-role-to-site)
-- [Exercise 4 - Add UI Integration Cards](exercises/ex4/)
-    - [Exercise 4.1 (Optional) - Explore the UI Cards in Card Explorer](exercises/ex4#exercise-41-card-explorer)
-    - [Exercise 4.2 - Upload a Card Package](exercises/ex4#exercise-42-upload-a-card-package)
-    - [Exercise 4.3 - Use a Card on Your Page](exercises/ex4#exercise-43-use-a-card-on-your-page)
-    - [Exercise 4.4 - Preview the Site](exercises/ex4#exercise-44-preview-the-site)
-- [Exercise 5 - Enable My Space](exercises/ex5/)
-    - [Exercise 5.1 - Enable My Space for Your Site](exercises/ex5#exercise-51-enable-my-space)
-- [Exercise 6 - Explore the Site as an End User](exercises/ex6/)
-    - [Exercise 6.1 - Explore What Joule Can Do for You](exercises/ex6#exercise-61-explore-joule)
-    - [Exercise 6.2 - Enable My Space](exercises/ex6#exercise-62-enable-my-space)
-    - [Exercise 6.3 - Start Building Your Personal Page](exercises/ex6#exercise-63-go-to-my-space)
-    - [Optional: Change the Menu to Side Navigation](exercises/ex6#optional-side-navigation)
-- [Exercise 7 - Access the Site on the Joule Work Mobile App](exercises/ex7/)
-    - [Exercise 7.1 - Enable the Joule Work Mobile App for Your Site](exercises/ex7#exercise-71-enable-joule-work-mobile-app)
-    - [Exercise 7.2 - Access Your Site on the Mobile App](exercises/ex7#exercise-72-access-on-mobile)
-- [Exercise 9 - Create, Package, and Deploy Your Own UI Integration Card](exercises/ex9/)
-    - [Exercise 9.1 (Optional) - Explore the Card Explorer](exercises/ex9#exercise-91-card-explorer)
-    - [Exercise 9.2 - Edit and Download Your Card from the Card Explorer](exercises/ex9#exercise-92-get-card)
-    - [Exercise 9.3 - Create a Content Package in SAP Business Application Studio](exercises/ex9#exercise-93-bas-package)
-    - [Exercise 9.4 - Upload the Content Package](exercises/ex9#exercise-94-upload)
-    - [Exercise 9.5 - Add the Card to Your Page](exercises/ex9#exercise-95-add-to-page)
-    - [Exercise 9.6 - Assign the Package Role to Your Site](exercises/ex9#exercise-96-assign-role)
-    - [Exercise 9.7 - Preview Your Site](exercises/ex9#exercise-97-preview)
+- [Exercise 4 - Enable My Space](exercises/ex4/)
+    - [Exercise 4.1 - Enable My Space for Your Site](exercises/ex4#exercise-41-enable-my-space)
+- [Exercise 5 - Explore the Site as an End User](exercises/ex5/)
+    - [Exercise 5.1 - Explore What Joule Can Do for You](exercises/ex5#exercise-51-explore-joule)
+    - [Exercise 5.2 - Enable My Space](exercises/ex5#exercise-52-enable-my-space)
+    - [Exercise 5.3 - Start Building Your Personal Page](exercises/ex5#exercise-53-go-to-my-space)
+- [Exercise 6 (Optional) - Access the Site on the Joule Work Mobile App](exercises/ex6/)
+    - [Exercise 6.1 - Enable the Joule Work Mobile App for Your Site](exercises/ex6#exercise-61-enable-joule-work-mobile-app)
+    - [Exercise 6.2 - Access Your Site on the Mobile App](exercises/ex6#exercise-62-access-on-mobile)
+- [Exercise 7 (Optional) - Change the Site Navigation to Side Menu](exercises/ex7/)
+    - [Exercise 7.1 - Switch to Side Navigation and Update the Space Icon](exercises/ex7#exercise-71-side-navigation)
+- [Exercise 8 (Optional) - Create, Package, and Deploy Your Own UI Integration Card](exercises/ex8/)
+    - [Exercise 8.1 (Optional) - Explore the Card Explorer](exercises/ex8#exercise-81-card-explorer)
+    - [Exercise 8.2 - Edit and Download Your Card from the Card Explorer](exercises/ex8#exercise-82-get-card)
+    - [Exercise 8.3 - Create a Content Package in SAP Business Application Studio](exercises/ex8#exercise-83-bas-package)
+    - [Exercise 8.4 - Upload the Content Package](exercises/ex8#exercise-84-upload)
+    - [Exercise 8.5 - Add the Card to Your Page](exercises/ex8#exercise-85-add-to-page)
+    - [Exercise 8.6 - Assign the Package Role to Your Site](exercises/ex8#exercise-86-assign-role)
+    - [Exercise 8.7 - Preview Your Site](exercises/ex8#exercise-87-preview)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.

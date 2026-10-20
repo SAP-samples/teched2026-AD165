@@ -57,7 +57,7 @@ By completing these steps, you've built a Work Zone page that brings employee se
    ![Saved page overview in Content Manager](images/Image_03_0110.png)
 
 > [!TIP]
-> You will add more content (an additional UI integration card) to this page in Exercise 4.
+> If you still have time at the end of the session, you can add your own UI integration card to this page in Exercise 8 (Optional).
 
 ---
 
@@ -159,4 +159,4 @@ For content to appear in the site, the role it is assigned to must also be assig
 
 You created a page, organized it in a space, assigned the space to a role, and assigned that role to your site so it appears in the site navigation for the right users.
 
-Continue to - [Exercise 4 - Add UI Integration Cards](../ex4/README.md)
+Continue to - [Exercise 4 - Enable My Space](../ex4/README.md)
