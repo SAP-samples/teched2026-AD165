@@ -16,16 +16,16 @@ After completing these steps you will have created a new Work Zone site using th
 
 ### Steps
 
-1. **Login to SAP Build Work Zone admin environment**: open (in a new window `shift` + `left click`) 👉 <a href="https://an4-a8rlu183.dt.launchpad.cfapps.eu10.hana.ondemand.com/sites#Site-Directory?sap-app-origin-hint=" target="_blank">SAP Build Work Zone</a> and login with the user that is available on your desk and the password provided by your instructors.
+1. **Login to SAP Build Work Zone admin environment** — open (in a new window `shift` + `left click`) 👉 <a href="https://an4-a8rlu183.dt.launchpad.cfapps.eu10.hana.ondemand.com/sites#Site-Directory?sap-app-origin-hint=" target="_blank">SAP Build Work Zone</a> and login with the user that is available on your desk and the password provided by your instructors.
 
 
-2. **Create a site**: You are now in the **Site Directory**: this is where you manage your Work Zone sites. From here you can create new sites, configure site settings (including role assignments and a site alias), and set the default site for the subaccount. The left-hand navigation gives you access to all the other tools in the administration environment — such as the Content Manager and the Channel Manager — which you will explore in later exercises.
+2. **Create a site** — You are now in the **Site Directory**: this is where you manage your Work Zone sites. From here you can create new sites, configure site settings (including role assignments and a site alias), and set the default site for the subaccount. The left-hand navigation gives you access to all the other tools in the administration environment — such as the Content Manager and the Channel Manager — which you will explore in later exercises.
 
    Click **Create Site** to get started.
 
    ![Site Directory with Create Site button highlighted](images/Image_01_0010.png)
 
-3. **Enter a site name**: use a name of your choice (e.g. **Purchasers' Site ###**, replacing ### with your participant number) and click **Create**.
+3. **Enter a site name** — use a name of your choice (e.g. **Purchasers' Site ###**, replacing ### with your participant number) and click **Create**.
 
    ![Create Site dialog with site name field](images/Image_01_0020.png)
 
@@ -47,16 +47,16 @@ When a site is created you land directly on **Site Settings**, with the **Proper
 
 ### Steps
 
-1. **Switch to Edit Mode**: you are already on **Site Settings** from the previous exercise. Click **Edit** to switch to edit mode.
+1. **Switch to Edit Mode** — you are already on **Site Settings** from the previous exercise. Click **Edit** to switch to edit mode.
 
    > [!TIP]
    > If you navigated away, you can return to Site Settings at any time by clicking the **cog icon** on your site card in the Site Directory.
 
    ![Site card with cog icon highlighted](images/Image_01_0030.png)
 
-2. **Check New Shell Bar**: on the **Properties** tab, confirm that the **New Shell Bar** toggle is set to **On**.
+2. **Check New Shell Bar** — on the **Properties** tab, confirm that the **New Shell Bar** toggle is set to **On**.
 
-3. **Add a custom logo**: go to the **Site Branding** section and fill in the following fields:
+3. **Add a custom logo** — go to the **Site Branding** section and fill in the following fields:
 
    - **Custom Logo:**
      ```
@@ -69,7 +69,7 @@ When a site is created you land directly on **Site Settings**, with the **Proper
    > The changes to the logo and the label that you just made only apply to the runtime of your site. You can change them for the administration environment only by assigning a complete new theme.
 
 
-4. **Go to Display tab**: do not save your changes yet, but navigate to the **Display tab** to change some further settings.
+4. **Go to Display tab** — do not save your changes yet, but navigate to the **Display tab** to change some further settings.
 
    ![Site Settings with branding fields and Display tab highlighted](images/Image_01_0040.png)
 
@@ -90,13 +90,13 @@ The **Display** tab controls how the site is presented to end users and where ce
 
 ### Steps
 
-1. **Open the Display tab**: in the **Site Settings**, click the **Display** tab.
+1. **Open the Display tab** — in the **Site Settings**, click the **Display** tab.
 
-2. **Set View Mode**: find the **View Mode** setting and select **Spaces and Pages - New Experience**.
+2. **Set View Mode** — find the **View Mode** setting and select **Spaces and Pages - New Experience**.
 
-3. **Review the remaining settings**: take a moment to look at the other options on the tab. No further changes are required for this exercise.
+3. **Review the remaining settings** — take a moment to look at the other options on the tab. No further changes are required for this exercise.
 
-4. **Go to User Capabilities tab**: move on to the **User Capabilities** tab for the next settings.
+4. **Go to User Capabilities tab** — move on to the **User Capabilities** tab for the next settings.
 
    ![Display tab with Spaces and Pages - New Experience selected and User Capabilities tab highlighted](images/Image_01_0050.png)
 
@@ -116,15 +116,15 @@ Two changes have recently been introduced to the language selection which is ava
 
 ### Steps
 
-1. **Find the language settings**: you are already on the **User Capabilities** tab. Scroll down to find the language-related settings.
+1. **Find the language settings** — you are already on the **User Capabilities** tab. Scroll down to find the language-related settings.
 
-2. **Set a Fallback language**: choose a language of your preference.
+2. **Set a Fallback language** — choose a language of your preference.
 
-3. **Adjust available languages**: add or remove languages, including browser language, based on your own preferences.
+3. **Adjust available languages** — add or remove languages, including browser language, based on your own preferences.
 
 4. **Save your changes.**
 
-5. **Navigate to the Services tab**: move on to the **Services** tab for the next settings.
+5. **Navigate to the Services tab** — move on to the **Services** tab for the next settings.
 
    ![User Capabilities tab with language settings configured and Services tab highlighted](images/Image_01_0060.png)
 
@@ -144,9 +144,9 @@ After completing these steps the AI assistant Joule will be activated for your s
 
 ### Steps
 
-1. **Switch to Edit Mode**: click the **Edit** button in the upper right corner.
+1. **Switch to Edit Mode** — click the **Edit** button in the upper right corner.
 
-2. **Enable Joule**: locate the **Joule** toggle and set it to **On**.
+2. **Enable Joule** — locate the **Joule** toggle and set it to **On**.
 
 3. **Save your changes.**
 

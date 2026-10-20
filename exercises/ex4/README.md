@@ -16,7 +16,7 @@ After completing these steps My Space will be available to all users of your sit
 
 ### Steps
 
-1. **Open your site settings**: Go back to the tab with the *Work Zone administration environment* and navigate to **Site Directory**. Then open the settings of your site.
+1. **Open your site settings** — Go back to the tab with the *Work Zone administration environment* and navigate to **Site Directory**. Then open the settings of your site.
 
    ![Navigate to Site Directory and open site settings](images/Image_01_0010.png)
 
@@ -25,7 +25,7 @@ After completing these steps My Space will be available to all users of your sit
 
 2. **Navigate to User Capabilities** — go to the **User Capabilities** tab in the site settings.
 
-3. **Switch to Edit Mode** - click the **Edit** button in the upper right corner.
+3. **Switch to Edit Mode** — click the **Edit** button in the upper right corner.
 
    ![User Capabilities tab with Edit button](images/Image_01_0020.png)
 

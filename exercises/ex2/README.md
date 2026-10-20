@@ -16,11 +16,11 @@ After completing these steps you will understand the admin environment of SAP Bu
 
 ### Steps
 
-1. **Leave the Site settings**: go back to the **Site Directory** by clicking the link in the breadcrumb.
+1. **Leave the Site settings** — go back to the **Site Directory** by clicking the link in the breadcrumb.
 
    ![Site Settings with the Site Directory breadcrumb link highlighted](images/Image_02_0010.png)
 
-2. **Understand the admin areas**: in the left-hand navigation, you now see the areas **Site Directory**, **Content Manager**, **Channel Manager**, **Import Monitor**, and **Settings**.
+2. **Understand the admin areas** — in the left-hand navigation, you now see the areas **Site Directory**, **Content Manager**, **Channel Manager**, **Import Monitor**, and **Settings**.
 
    ![Site Directory with all admin areas in the left-hand navigation highlighted](images/Image_02_0020.png)
 
@@ -62,11 +62,11 @@ The key benefit: **content ownership stays in the backend system**. Roles, apps,
 
 ### Steps
 
-1. **Navigate to Channel Manager**: in the left-hand menu, click **Channel Manager**.
+1. **Navigate to Channel Manager** — in the left-hand menu, click **Channel Manager**.
 
    ![Site Directory with Channel Manager highlighted in the left-hand navigation](images/Image_02_0030.png)
 
-2. **Review the configured channels**: you will see at least three channels:
+2. **Review the configured channels** — you will see at least three channels:
 
    **HTML5 Apps**: When you subscribe to SAP Build Work Zone, standard edition, this provider is created automatically. It starts empty — any app deployed to SAP BTP is added to it automatically, making it available to surface in your site.
 
@@ -76,9 +76,9 @@ The key benefit: **content ownership stays in the backend system**. Roles, apps,
 
    ![Channel Manager showing the four configured content channels](images/Image_02_0040.png)
 
-3. **Check the Status column**: note whether each channel is active and when it was last synchronized.
+3. **Check the Status column** — note whether each channel is active and when it was last synchronized.
 
-4. **Inspect the SAP S/4HANA Cloud properties**: click the **pencil icon** on the **S4HANA Public Cloud** channel to open its properties. The key fields to note are:
+4. **Inspect the SAP S/4HANA Cloud properties** — click the **pencil icon** on the **S4HANA Public Cloud** channel to open its properties. The key fields to note are:
 
    - **Provider ID / Name**: unique identifier for this channel
    - **Design Time Destination**: the BTP destination used to fetch roles and content metadata from the backend
@@ -89,11 +89,11 @@ The key benefit: **content ownership stays in the backend system**. Roles, apps,
 
    ![Edit Content Provider dialog for the S4HANA Public Cloud channel with Cancel highlighted](images/Image_02_0050.png)
 
-5. **Open the content report**: click the **report icon** on the **S4HANA Public Cloud** channel. You see the *Last Update Status* showing the content entities that were changed during the last update of the content channel. This view might be empty.
+5. **Open the content report** — click the **report icon** on the **S4HANA Public Cloud** channel. You see the *Last Update Status* showing the content entities that were changed during the last update of the content channel. This view might be empty.
 
    ![View Last Updates Status of S4HANA Public Cloud content report](images/Image_02_0060.png)
 
-6. **View the exposed content** - to see the full exposed content, i.e. all the roles, catalogs, and apps that have been federated from the S/4HANA system and are available to assign to your site, click **Content Item Summary**. You can see how many roles, apps etc. were exposed. Click **Close**.
+6. **View the exposed content** — to see the full exposed content, i.e. all the roles, catalogs, and apps that have been federated from the S/4HANA system and are available to assign to your site, click **Content Item Summary**. You can see how many roles, apps etc. were exposed. Click **Close**.
 
 
    ![S4HANA Public Cloud content report showing federated content counts by category](images/Image_02_0065.png)
@@ -104,42 +104,47 @@ The key benefit: **content ownership stays in the backend system**. Roles, apps,
 
 ---
 
-## <a id="exercise-23-assign-content"></a> Exercise 2.3 - Assign a Content Channel or Single Roles to Your Site
+## <a id="exercise-23-assign-content"></a> Exercise 2.3 - Assign Roles and Content Packages to Your Site
 
 ### What you'll achieve
-After completing these steps, selected business content from a backend system will be assigned to your Work Zone site, making the corresponding apps available to users with the right role.
+After completing these steps, selected roles from the SAP S/4HANA Cloud channel and two content packages will be assigned to your Work Zone site, making the corresponding apps available to users with the right role.
 
 ---
 
-You have two options: assign individual roles for fine-grained control, or assign the full content channel which requires less manual effort and automatically reflects any future changes to the channel.
+In this exercise you assign individual roles from the S/4HANA channel to your site rather than the full content channel.
 
-> [!TIP]
-> Assigning the full content channel also you to enable **Automatic Updates**. When this is configured, SAP Build Work Zone is notified very time the S/4HANA system pushes updated content, and the channel content is refreshed automatically. Setting this up and scheduling regular exposure runs on the SAP S/4HANA side is required for full automation — this configuration is not covered in this exercise.
+> [!NOTE]
+> Assigning individual roles rather than the full S/4HANA channel keeps the registered content set smaller, which makes the initial role activation on your site noticeably faster.
 
 ---
 
 ### Steps
 
-1. **Open your site settings**: navigate to **Site Directory** and open the settings of your site by clicking the cog icon again.
+1. **Open your site settings** — navigate to **Site Directory** and open the settings of your site by clicking the cog icon again.
 
    ![Site Directory with the cog icon highlighted on the site card](images/Image_02_0120.png)
 
    ![Site Settings with Role Assignments highlighted in the left-hand navigation](images/Image_02_0130.png)
 
-2. **Open the Content Channels tab**: go to the **Role Assignments** section and open the **Content Channels** tab.
+2. **Open the Roles tab** — in the **Role Assignments** section, make sure you are on the **Roles** tab. Click **Edit** to switch to edit mode.
 
-3. **Assign the S/4HANA channel**: there are no channels assigned to your site yet, click the **Assign Channels** button. This switches to Edit mode. Then move the switch for the **SAP S/4HANA Cloud** channel to **On**.
+3. **Assign the S/4HANA roles** — in the search field, type **AD165** and click the **Search icon**. This filters to the SAP S/4HANA roles that were created specifically for this session. Assign all of them by turning their switches to **On**.
+
+   ![Role Assignments — Display Assign Channels button](images/Image_02_0135.png)
+
+4. **Assign two further channels** — switch to the **Content Channels** tab (you do not need to save yet) and click **Assign Channels**. 
 
    ![Role Assignments — Display Assign Channels button](images/Image_02_0140.png)
 
-4. **Assign two further channels**: now also assign the two content channels **Demo Generic Package** and **TechEd Employee Services Package**. They contain UI integration cards that you will use later to enrich a page you are creating.
+5. **Select content packages with UI Integration cards** — assign the two content channels:
+   - **Demo Generic Package**
+   - **TechEd Employee Services Package**
 
-5. **Save your changes**: click Save and confirm the *Information* pop-up with **OK**.
+   They contain UI integration cards that you will use later to enrich a page you are creating.
+
+6. **Save your changes** — click Save and confirm the *Information* pop-up with **OK**.
 
    ![Role Assignments showing the S4HANA Public Cloud channel and the packages assigned, with Go to Site and Edit highlighted](images/Image_02_0150.png)
-
-> [!TIP]
-> After saving, you can navigate back to the **Roles** tab to see the roles now assigned to your site from the SAP S/4HANA Cloud channel and the two packages. Note that not all roles are used in this exercise, but their assignment does not have any effect, as they are not assigned to your user. If you prefer to assign only specific roles instead, you can do so directly from the **Roles** tab, but you would need to remove the assignment of the complete content channel first. If you do so, make sure that **Employee**, **Purchaser Role for AD165**, **Project Controller**, and **Purchaser Self-Services** are selected.
 
 ---
 
@@ -156,19 +161,19 @@ The Content Manager gives administrators a unified view of all content items ava
 
 ### Steps
 
-1. **Navigate to Content Manager**: in the left-hand menu, click **Content Manager**.
+1. **Navigate to Content Manager** — in the left-hand menu, click **Content Manager**.
 
    ![Channel Manager with Content Manager highlighted in the left-hand navigation](images/Image_02_0070.png)
 
-2. **Filter by content provider**: in the Content Manager header, open the **Provider** filter and select **S4HANA Public Cloud**. The list now shows only the roles that were federated from the S/4HANA system.
+2. **Filter by content provider** — in the Content Manager header, open the **Provider** filter and select **S4HANA Public Cloud**. The list now shows only the roles that were federated from the S/4HANA system.
 
    ![Content Manager with the provider filter dropdown open and SAP S/4HANA Cloud highlighted](images/Image_02_0080.png)
 
    ![Content Manager filtered to S4HANA Public Cloud showing all federated roles, with Warehouse Clerk highlighted](images/Image_02_0090.png)
 
-3. **Inspect a federated role**: locate one of the federated roles (e.g. **Warehouse Clerk**) and click on it to open the role details.
+3. **Inspect a federated role** — locate one of the federated roles (e.g. **Warehouse Clerk**) and click on it to open the role details.
 
-4. **Review the assigned content**: in the role editor, check the **Apps** and **Spaces** tabs to see which apps and spaces are included in this role. You can also click an app in the list to view more details. Note that these items are read-only — federated content can only be modified in the originating backend system.
+4. **Review the assigned content** — in the role editor, check the **Apps** and **Spaces** tabs to see which apps and spaces are included in this role. You can also click an app in the list to view more details. Note that these items are read-only — federated content can only be modified in the originating backend system.
 
    ![Warehouse Clerk role showing the Apps tab with a pop-up app detail and the Spaces tab highlighted](images/Image_02_0100.png)
 
@@ -188,13 +193,15 @@ After completing these steps you will have explored the Work Zone standard runti
 
 ### Steps
 
-1. **Open the site**: navigate to **Site Directory** and open your site settings with the cog icon. Then click **Go to Site** in the top right to open your site in runtime. The site opens in a new tab.
+1. **Open the site** — navigate to **Site Directory** and click the **Go to Site** on your site's tile to open your site in runtime. The site opens in a new tab.
 
-2. **Check the custom logo**: notice the logo you added in Exercise 1.2 displayed in the shell bar.
+   ![Site Directory with Go to Site link](images/Image_02_0155.png)
+
+2. **Check the custom logo** — notice the logo you added in Exercise 1.2 displayed in the shell bar.
 
    ![Work Zone runtime site showing the custom cat logo and the user profile icon highlighted](images/Image_02_0160.png)
 
-3. **Explore Settings**: click the user icon in the shell bar to open the user menu and select **Settings**.
+3. **Explore Settings** — click the user icon in the shell bar to open the user menu and select **Settings**.
 
    ![User profile menu open with the Settings option highlighted](images/Image_02_0170.png)
 
@@ -206,7 +213,7 @@ In the **Language and Region** area, users can select their preferred language f
 
    ![User Settings dialog open on the Language and Region page](images/Image_02_0180.png)
 
-4. **Browse the federated spaces**: in the top navigation menu, all entries come from spaces that belong to the S/4HANA roles you assigned to your site in Exercise 2.4. Click the little arrow next to some of them to see the pages assigned to this space.
+4. **Browse the federated spaces** — in the top navigation menu, all entries come from spaces that belong to the S/4HANA roles you assigned to your site in Exercise 2.4. Click the little arrow next to some of them to see the pages assigned to this space.
 
    ![Work Zone runtime showing the Purchasing space navigation menu open with the Overview page highlighted](images/Image_02_0190.png)
 
@@ -216,15 +223,15 @@ In the **Language and Region** area, users can select their preferred language f
 > 1. The content needs to be assigned to a role that is assigned to the user.
 > 2. The content needs to be assigned to a role that is assigned to the site.
 
-5. **Launch an app**: navigate to the **Overview** page in the **Purchasing** space and click on **Monitor Purchase Order Items**. It opens in a new browser tab — this behavior is defined by the content exposure in the S/4HANA system.
+5. **Launch an app** — On the **Overview** page in the **Purchasing** space, click on **Monitor Purchase Order Items**. It opens in a new browser tab — this behavior is defined by the content exposure in the S/4HANA system.
 
    ![Purchasing Overview page with the Monitor Purchase Order Items tile highlighted](images/Image_02_0200.png)
 
-6. **Display data**: in the app, select **EUR** as the *Display Currency* because this is a mandatory field. Type EUR directly into the entry field — the value help may take a moment to load after the page opens, so typing is faster. Then click **Go** to see the list of open purchase order items.
+6. **Display data** — in the app, select **EUR** as the *Display Currency* because this is a mandatory field. Type EUR directly into the entry field — the value help may take a moment to load after the page opens, so typing is faster. Then click **Go** to see the list of open purchase order items.
 
    ![Monitor Purchase Order Items app with EUR entered as the display currency and the Go button highlighted](images/Image_02_0210.png)
 
-7. **Navigate back**: close the browser tab to return to your Work Zone site.
+7. **Navigate back** — close the browser tab to return to your Work Zone site.
 
 ---
 

@@ -34,7 +34,7 @@ By the end of this session you will have:
 - [Exercise 2 - Integrate Business Content](exercises/ex2/)
     - [Exercise 2.1 - Get to Know the Admin Environment](exercises/ex2#exercise-21-admin-environment)
     - [Exercise 2.2 - Get to Know the Channel Manager and Learn About Federation](exercises/ex2#exercise-22-get-to-know-the-channel-manager)
-    - [Exercise 2.3 - Assign a Content Channel or Single Roles to Your Site](exercises/ex2#exercise-23-assign-content)
+    - [Exercise 2.3 - Assign Roles and Content Packages to Your Site](exercises/ex2#exercise-23-assign-content)
     - [Exercise 2.4 - Explore Federated Content in the Content Manager](exercises/ex2#exercise-24-explore-content-manager)
     - [Exercise 2.5 - Open Your Site in Runtime](exercises/ex2#exercise-25-preview-your-site)
 - [Exercise 3 - Create a Work Zone Page and Space](exercises/ex3/)
