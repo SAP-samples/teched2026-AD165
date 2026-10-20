@@ -70,8 +70,6 @@ After completing these steps My Space will be visible in the site navigation and
 
 My Space is a personal page that each user can configure independently — adding the cards, tiles, and widgets most relevant to their daily work. Before it appears in the navigation, each user must enable it once in their personal settings.
 
-> [!NOTE]
-> Right now, My Space always appears as the first entry in the navigation menu. Support for administrators to define its position via Site Settings is planned for a future release.
 
 ### Steps
 
@@ -107,6 +105,17 @@ Think of this as building a personal productivity cockpit: the items you add her
 1. **Start building** — your My Space page is initially empty, but it is already in editing mode. Click **Add Content** to start adding tiles or cards.
 
 ![Screenshot 012](images/image_06_012.png)
+
+
+---
+
+> [!NOTE]
+> If you want to return to editing My Space at a later point in time after saving it, you can always switch to Edit mode via the `User Menu. 
+![Edit My Space in Site Settings](images/image_06_012a.png)
+
+
+---
+
 
 2. **Add further sections or cells** — click the **+** sign at the bottom of the current sections to add further sections below or hover the section to see further **+** signs to the left and right to add more columns.
 

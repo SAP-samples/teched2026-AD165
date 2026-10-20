@@ -7,21 +7,18 @@ In this exercise, you will enrich your workpage with a UI integration card that 
 
 ---
 
-## Before You Start — Create Your Dev Space in Business Application Studio
+## Before You Start —  Open a Dev Space in Business Application Studio (BAS)
 
-Starting a dev space takes a few minutes. Kick it off now so it is ready when you reach Exercise 8.3.
+Starting a dev space takes a few minutes. If has not been started, you should kick it off now so it is ready when you reach Exercise 8.3.
 
 1. Open **SAP Business Application Studio** - open (in a new window shift + left click) 👉  <a href="https://an4-a8rlu183.eu10cf.applicationstudio.cloud.sap/index.html" target="_blank">SAP Business Application Studio</a>.
 
    ![BAS Dev Spaces overview with Create Dev Space button](./images/Image_08_0010.png)
 
-2. Click **Create Dev Space**. 
+2. Take a look at the status of `UI_Integration_Cards` dev space. If it is in Status `Running`, there is nothing to do. If it is in status `Stopped`, click the **Start** icon. The Dev Space is now starting and will be up and running when you get to exercise 8.3.
 
-3. **Select Dev Space type** - Enter a name, e.g. **MyCard_xxx** with xxx being your participant ID. Keep the **SAP Fiori** selection, because this type of dev space already contains the Developer Tools for SAP Build Work Zone out of the box which will allow you to package your Content Package in Exercise 8.3. Then click **Create Dev Space**.
-
-   ![Create a New Dev Space dialog with name entered and SAP Fiori type selected](./images/Image_08_0020.png)
-
-Your dev space is created and now starting.
+> [!NOTE]
+> This Dev space already contains the Developer Tools for SAP Build Work Zone out of the box which will allow you to package your Content Package in Exercise 8.3. 
 
 ---
 
@@ -58,31 +55,49 @@ After completing these steps you will have a card manifest with a unique ID read
 
 ### Steps
 
-1. **Check the List card in the Card Explorer** — make sure you selected the list card in the menu on the left and that you can see the manifest JSON code on the right side.
+1. **Check the List card in the Card Explorer** — in the [Card Explorer](https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/cardExplorer/webapp/index.html#/explore/list), you now see the list card (the card type is selected in the menu on the left). Make sure that you can see the manifest JSON code on the right side.
 
-2. **Edit the card ID** — in the editor panel on the right, find the `"id"` field inside `"sap.app"` and change its value to `"teched.ad165.card###"` (replace `###` with your participant number). This is the **only required change** and makes sure your card ID does not conflict with other participants.
+2. **Edit the card ID and title** — in the editor panel on the right, find the `"id"` field inside `"sap.app"` and change its value to `"teched.ad165.card###"` (replace `###` with your participant number). This is the **only required change** and makes sure your card ID does not conflict with other participants. 
+
+In addition change, the title of the card inside `"sap.app"` to `"Product List Card ###"`. This defines how the card will show up in the App Finder.
 
    Before:
    ```json
    "sap.app": {
 		"id": "card.explorer.highlight.list.card",
+      "type": "card",
+		"title": "Sample of a List with Highlight",
     ...
    ```
    After:
    ```json
    "sap.app": {
 		"id": "teched.ad165.card###",
+      "type": "card",
+		"title": "Product List Card 000",
     ...
    ```
 
    ![Card Explorer showing the List card selected and the id edited to teched.ad165.card000 in the manifest editor](./images/Image_08_0030.png)
 
-3. **Download the manifest** — click the **download link** (↓) above the manifest editor. Select **Manifest File** from the dropdown and save the downloaded `manifest.json` somewhere you can find it (e.g. your Desktop).
+3. (Optional) **Edit the card title and subtitle** — find the `"header"` section inside `"sap.card"` and replace the parameter bindings with hardcoded values. In the sample card these values were set through the `configuration` section, which lets administrators change them when placing the card on a page. We are skipping the card configuration part to keep the exercise short.
 
-> [!NOTE]
-> Card configuration — which lets administrators adjust the card's title, subtitle, and item count when placing it on a page — is not covered in this exercise to keep it simple.
+   Before:
+   ```json
+   "header": {
+       "title": "{{parameters.title}}",
+       "subTitle": "{{parameters.subtitle}}",
+   ```
+   After (replace `###` with your participant number):
+   ```json
+   "header": {
+       "title": "Products Low in Stock ###",
+       "subTitle": "Reorder needed",
+   ```
 
+You immediately see your changes in the preview.
 
+4. **Download the manifest** — click the **download link** (↓) above the manifest editor. Select **Manifest File** from the dropdown and save the downloaded `manifest.json` somewhere you can find it (e.g. your Desktop).
 ---
 
 ## <a id="exercise-83-bas-package"></a> Exercise 8.3 - Create a Content Package in SAP Business Application Studio
@@ -92,7 +107,7 @@ After completing these steps you will have a `package.zip` content package ready
 
 ---
 
-By now your BAS dev space should be running. Click its name to open it.
+By now the BAS dev space should be running. Click its name to open it.
 
 ![BAS Dev Spaces showing the dev space in RUNNING state](./images/Image_08_0040.png)
 
@@ -100,11 +115,11 @@ By now your BAS dev space should be running. Click its name to open it.
 
 #### Create the project
 
-The Content Package template in BAS gives you a ready-made project scaffold including a `manifest.json` (the package descriptor), a `content.json` (the artifact registry), and sample files. Starting from this template saves you from writing boilerplate and ensures the project structure matches what the builder expects.
+The Content Package template in BAS gives you a ready-made project scaffold including a `manifest.json` (the package descriptor), a `content.json` (the artifact registry), and sample files. Starting from this template saves you from creating the project structure from scratch and ensures it matches what the builder expects.
 
-1. **Open the Get Started page** — your Dev Space should now be running. Click the name of your Dev Space to access it. In case, you receive a pop-up about Tracing, just confirm with **OK**. 
+1. **Open the Dev Space** — go back to the tab with Business Applcation Studio. Your Dev Space should now be running. Click the name of your Dev Space to access it. In case, you receive a pop-up about Tracing, just confirm with **OK**. 
 
-Business Application studio opens on the **Get Started** tab. If it is not visible, go to **Help** → **Get Started**.
+Business Application studio opens on the **Get Started** tab. If it is not visible, click the **Menu icon** and go to **Help** → **Get Started**.
 
 2. **Create a new project from template** — click **New Project from Template**.
 
@@ -125,6 +140,8 @@ Business Application studio opens on the **Get Started** tab. If it is not visib
    | Include Content Samples | `True` |
 
    Replace `###` with your participant number. BAS creates the project and opens it. 
+   
+5. **Inspect the project structure** — take a look at the project structure that was created. It contains an `i18n` folder for translations which we will not cover in this exercise, a folder that holds the sample files that come with the template, a `content.json`, and a `manifest.json` file.
 
    ![BAS Explorer showing the newly created ContentPackage000 project with manifest.json highlighted](./images/Image_08_0080.png)
 
@@ -132,10 +149,10 @@ Business Application studio opens on the **Get Started** tab. If it is not visib
 
 #### Add the card files
 
-In the following steps you create a folder structure to upload the card manifest you downloaded from the Card Explorer in Exercise 8.2 and a role definition that links the role to your card.
+In the following steps you create a folder structure to upload the card manifest you downloaded from the Card Explorer in Exercise 8.2 and a role definition that links the role to your card. There might be already projects of other participants in the Dev Space. **Make sure to work in your own project structure**. 
 
 5. **Create the folder structure** — in the Explorer panel on the left:
-   - Right-click the project root → **New Folder** → name it `demo`
+   - Right-click your project root → **New Folder** → name it `demo`
    - Right-click `demo` → **New Folder** → name it `src`
 
    ![BAS right-click on project root showing New Folder option, content.json already updated visible on the right](./images/Image_08_0090.png)
@@ -157,27 +174,33 @@ In the following steps you create a folder structure to upload the card manifest
     - Paste the following content. Replace `###` with your participant number.
 
     ```json
-    {
-      "_version": "1.0.0",
-      "identification": {
-        "id": "ns.ContentPackage###.sm",
-        "title": "TechEd AD165 Role ###",
-        "entityType": "role"
+   {
+     "_version": "3.2.0",
+     "identification": {
+         "id": "ns.package_ns.mycontentpackage###.sm",
+         "title": "ContentPackageRole###",
+         "entityType": "role"
       },
-      "payload": {
-        "apps": [
-        { "id": "teched.ad165.card###.app" }
-         ], 
-        "cards": [
-          { "id": "teched.ad165.card###" }
-        ]
+     "payload": {
+         "apps": [
+            {
+               "id": "teched.ad165.card###.app"
+            }
+         ],
+         "cards": [
+            { "id": "teched.ad165.card###" }
+         ]
       }
-    }
+   }
     ```
 
     Save the file (**Ctrl+S**).
 
     ![BAS showing demo/src/role.json open with the role definition content](./images/Image_08_0130.png)
+
+8. **Copy the i18n folder** — the card manifest references translation files from an `i18n` folder. Copy the one that was created with the content package template:
+   - Right-click the `i18n` folder in your project root (`ContentPackage###`) → **Copy**
+   - Right-click the `src` folder inside `demo` → **Paste**
 
 
 ---
@@ -186,13 +209,16 @@ In the following steps you create a folder structure to upload the card manifest
 
 With your card files in place, you now tell the content package builder which artifacts to include in the ZIP. `content.json` is the registry — each entry declares one artifact (here a **role** and a **card**) and points to its source files in the `demo/src` folder you just created.
 
-8. **Replace the entire contents** of `content.json` with the following. Replace `###` with your participant number.
+9. **Replace the entire contents** of `content.json` with the following. Replace `###` with your participant number.
 
    ```json
    {
      "role-###": {
        "type": "role",
-       "src": { "from": "./demo/src", "content": "role.json" }
+       "src": {
+         "from": "./demo/src",
+         "content": "role.json" 
+       }
      },
      "card-###": {
        "type": "card",
@@ -214,15 +240,15 @@ With your card files in place, you now tell the content package builder which ar
 
 With the card files in place and `content.json` updated, you are ready to produce the deployable ZIP. The builder validates your files, resolves all paths declared in `content.json`, and packages everything into `package.zip`.
 
-9. **Build the content package** — in the Explorer panel, right-click the **`manifest.json` in the project root** (the package manifest, not the one inside `demo/src`). Select **Content Package: Package**. This usually just takes a few seconds.
+10. **Build the content package** — in the Explorer panel, right-click the **`manifest.json` in the project root** (the package manifest, not the one inside `demo/src`). Select **Content Package: Package**. This usually just takes a few seconds.
 
     ![BAS right-click on root manifest.json showing Content Package: Package option highlighted](./images/Image_08_0140.png)
 
-10. **Download the ZIP file** — when the build completes, `package.zip` appears in the project root. Right-click it and select **Download**. 
+11. **Download the ZIP file** — when the build completes, `package.zip` appears in the project root. Right-click it and select **Download**. 
 
     ![BAS right-click on package.zip showing Download option](./images/Image_08_0150.png)
 
-11. **Rename the downloaded file** to `ContentPackage###.zip`.
+12. **Rename the downloaded file** to `ContentPackage###.zip`.
 
 > [!IMPORTANT]
 > If the **Content Package: Package** option does not appear in the right-click menu, the "Development Tools for SAP Build Work Zone" extension is not enabled in your dev space. Stop the dev space, enable the extension (click Edit on the dev space), restart it, and try again.

@@ -1,6 +1,6 @@
 # Exercise 2 - Integrate Business Content
 
-In this exercise, you will first explore the admin environment of SAP Build Work Zone, standard edition. You will then check the connectivity to an SAP S/4HANA Public Cloud system using the Channel Manager, explore the federated content in the Content Manager, assign a content channel and roles to your site, and check the result in runtime to see how business apps appear in your site.
+In this exercise, you will first explore the admin environment of SAP Build Work Zone, standard edition. You will then check the connectivity to an SAP S/4HANA Public Cloud system using the Channel Manager, assign a content channel and roles to your site, explore the federated content in the Content Manager, and check the result in runtime to see how business apps appear in your site.
 
 > [!NOTE]
 > Content federation in SAP Build Work Zone allows you to pull in roles including all apps, spaces, pages, and catalogs from connected backend systems (such as SAP S/4HANA or SAP SuccessFactors) and surface them to users in a unified, role-based experience. From a user perspective, this means a single place to start the working day, regardless of how many backend systems an organization runs.
@@ -104,12 +104,53 @@ The key benefit: **content ownership stays in the backend system**. Roles, apps,
 
 ---
 
-## <a id="exercise-23-explore-content-manager"></a> Exercise 2.3 - Explore Federated Content in the Content Manager
+## <a id="exercise-23-assign-content"></a> Exercise 2.3 - Assign a Content Channel or Single Roles to Your Site
+
+### What you'll achieve
+After completing these steps, selected business content from a backend system will be assigned to your Work Zone site, making the corresponding apps available to users with the right role.
+
+---
+
+You have two options: assign individual roles for fine-grained control, or assign the full content channel which requires less manual effort and automatically reflects any future changes to the channel.
+
+> [!TIP]
+> Assigning the full content channel also you to enable **Automatic Updates**. When this is configured, SAP Build Work Zone is notified very time the S/4HANA system pushes updated content, and the channel content is refreshed automatically. Setting this up and scheduling regular exposure runs on the SAP S/4HANA side is required for full automation — this configuration is not covered in this exercise.
+
+---
+
+### Steps
+
+1. **Open your site settings**: navigate to **Site Directory** and open the settings of your site by clicking the cog icon again.
+
+   ![Site Directory with the cog icon highlighted on the site card](images/Image_02_0120.png)
+
+   ![Site Settings with Role Assignments highlighted in the left-hand navigation](images/Image_02_0130.png)
+
+2. **Open the Content Channels tab**: go to the **Role Assignments** section and open the **Content Channels** tab.
+
+3. **Assign the S/4HANA channel**: there are no channels assigned to your site yet, click the **Assign Channels** button. This switches to Edit mode. Then move the switch for the **SAP S/4HANA Cloud** channel to **On**.
+
+   ![Role Assignments — Display Assign Channels button](images/Image_02_0140.png)
+
+4. **Assign two further channels**: now also assign the two content channels **Demo Generic Package** and **TechEd Employee Services Package**. They contain UI integration cards that you will use later to enrich a page you are creating.
+
+5. **Save your changes**: click Save and confirm the *Information* pop-up with **OK**.
+
+   ![Role Assignments showing the S4HANA Public Cloud channel and the packages assigned, with Go to Site and Edit highlighted](images/Image_02_0150.png)
+
+> [!TIP]
+> After saving, you can navigate back to the **Roles** tab to see the roles now assigned to your site from the SAP S/4HANA Cloud channel and the two packages. Note that not all roles are used in this exercise, but their assignment does not have any effect, as they are not assigned to your user. If you prefer to assign only specific roles instead, you can do so directly from the **Roles** tab, but you would need to remove the assignment of the complete content channel first. If you do so, make sure that **Employee**, **Purchaser Role for AD165**, **Project Controller**, and **Purchaser Self-Services** are selected.
+
+---
+
+## <a id="exercise-24-explore-content-manager"></a> Exercise 2.4 - Explore Federated Content in the Content Manager
 
 ### What you'll achieve
 After completing these steps you will have seen how federated content from the SAP S/4HANA Cloud channel appears in the Content Manager, and you will understand the structure of a federated role.
 
 ---
+
+Assigning the full S/4HANA content channel brings in an entire SAP S/4HANA system's worth of roles, apps, and navigation structures — Work Zone registers all of it in the background, which can take a moment. You will now explore the federated content in the Content Manager so that by the time you open the site in runtime, the assignment will be fully in effect.
 
 The Content Manager gives administrators a unified view of all content items available in the subaccount — whether created manually or pulled in from a connected backend. You can use the **Provider** filter in the header to narrow the list to content from a specific channel, which makes it easy to verify what has been federated and to inspect individual items.
 
@@ -133,49 +174,8 @@ The Content Manager gives administrators a unified view of all content items ava
 
    ![Warehouse Clerk role on the Spaces tab showing one assigned space, with the Content Manager breadcrumb highlighted](images/Image_02_0110.png)
 
-5. **Navigate to Site Directory**: in the next step, you will assign federated roles to your site to make their content available there. So click **Site Directory** in the menu on the left to  go directly there. 
-
 > [!NOTE]
 > Content items that come from a backend channel are marked with the provider name. They cannot be edited in Work Zone — any changes to roles, apps, or spaces must be made in the SAP S/4HANA system and then re-exposed via the channel.
-
----
-
-## <a id="exercise-24-assign-content"></a> Exercise 2.4 - Assign a Content Channel or Single Roles to Your Site
-
-### What you'll achieve
-After completing these steps, selected business content from a backend system will be assigned to your Work Zone site, making the corresponding apps available to users with the right role.
-
----
-
-You have two options: assign individual roles for fine-grained control, or assign the full content channel which requires less manual effort and automatically reflects any future changes to the channel.
-
-> [!TIP]
-> Assigning the full content channel also enables **Automatic Updates**. Every time the S/4HANA system pushes updated content, the Channel Manager is notified and the channel content is refreshed automatically. Scheduling regular exposure runs on the SAP S/4HANA side is required for full automation — this configuration is not covered in this exercise.
-
----
-
-### Steps
-
-1. **Open your site settings**: navigate to **Site Directory** and open the settings of your site by clicking the cog icon again.
-
-   ![Site Directory with the cog icon highlighted on the site card](images/Image_02_0120.png)
-
-   ![Site Settings with Role Assignments highlighted in the left-hand navigation](images/Image_02_0130.png)
-
-2. **Open the Content Channels tab**: go to the **Role Assignments** section and open the **Content Channels** tab.
-
-3. **Assign the S/4HANA channel**: there are no channels assigned to your site yet, click the **Assign Channels** button. This switches to Edit mode. Then move the switch for the **SAP S/4HANA Cloud** channel to **On**.
-
-   ![Role Assignments — Display Assign Channels button](images/Image_02_0140.png)
-
-4. **Assign two further channels**: now also assign the two content channels **Demo Generic Package** and **TechEd Employee Services Package**. They contain UI integration cards that you will use later to enrich a page you are creating. 
-
-4. **Save your changes**: click Save and confirm the *Information* pop-up with **OK**.
-
-   ![Role Assignments showing the S4HANA Public Cloud channel and the packages assigned, with Go to Site and Edit highlighted](images/Image_02_0150.png)
-
-> [!TIP]
-> After saving, you can navigate back to the **Roles** tab to see the roles now assigned to your site from the SAP S/4HANA Cloud channel and the two packages. Note that not all roles are used in this exercise, but their assignment does not have any effect, as they are not assigned to your user. If you prefer to assign only specific roles instead, you can do so directly from the **Roles** tab, but you would need to remove the assignment of the complete content channel first. If you do so, make sure that **Employee**, **Purchaser Role for AD165**, **Project Controller**, and **Purchaser Self-Services** are selected.
 
 ---
 
@@ -188,7 +188,7 @@ After completing these steps you will have explored the Work Zone standard runti
 
 ### Steps
 
-1. **Open the site**: on top of the page, click **Go to Site** to open your site in runtime. The site opens in a new tab.
+1. **Open the site**: navigate to **Site Directory** and open your site settings with the cog icon. Then click **Go to Site** in the top right to open your site in runtime. The site opens in a new tab.
 
 2. **Check the custom logo**: notice the logo you added in Exercise 1.2 displayed in the shell bar.
 
@@ -230,6 +230,6 @@ In the **Language and Region** area, users can select their preferred language f
 
 ## Summary
 
-You explored the admin environment of SAP Build Work Zone, standard edition. You connected your Work Zone instance to business content from an S/4HANA system using the Channel Manager, explored the federated content in the Content Manager, assigned a content channel and roles to your site, and saw the federated apps appear in runtime.
+You explored the admin environment of SAP Build Work Zone, standard edition. You connected your Work Zone instance to business content from an S/4HANA system using the Channel Manager, assigned a content channel and roles to your site, explored the federated content in the Content Manager, and saw the federated apps appear in runtime.
 
 Continue to - [Exercise 3 - Create a Work Zone Page and Space](../ex3/README.md)
