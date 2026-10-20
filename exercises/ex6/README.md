@@ -65,6 +65,9 @@ After completing these steps you will have installed the SAP Joule Work app on y
 
 You have enabled the Joule Work Mobile App for your site and accessed it from a mobile device. You can now work with Joule, browse your spaces and pages, and manage tasks on the go.
 
-If you want, continue now to - [Exercise 7 (Optional) - Change the Site Navigation to Side Menu](../ex7/README.md)
+If you want, continue now to one of the other optional exercises:
+
+- [Exercise 7 (Optional) - Change the Site Navigation to Side Menu](../ex7/README.md) *(approx. 5 min)*
+- [Exercise 8 (Optional) - Create, Package, and Deploy Your Own UI Integration Card](../ex8/README.md) *(approx. 25-30 min)*
 
 Thank you for participating in **AD165 - Boost user productivity with AI assistant Joule and personal My Space for SAP Build Work Zone**.

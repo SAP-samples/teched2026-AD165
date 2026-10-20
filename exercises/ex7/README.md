@@ -44,13 +44,13 @@ After completing these steps the site navigation will switch from a top bar to a
 
 8. **Click `Edit`** to switch to edit mode.
 
-8. **Change the icon** — click the selector icon next to the *Icon in Side Menu* entry and choose a new icon, e.g. the *cloud* icon or the *heart-2* icon.
+9. **Change the icon** — click the selector icon next to the *Icon in Side Menu* entry and choose a new icon, e.g. the *cloud* icon or the *heart-2* icon.
 
    ![Space edit form with Select Icon dialog open showing heart-2 icon](./images/Image_07_0060.png)
 
    ![Space edit form with heart-2 icon selected and Save button highlighted](./images/Image_07_0070.png)
 
-9. **Save and view** — save your changes and navigate to the **Site Directory** to reload your site by clicking the **Go to Site** icon. Notice the new icon in the side menu.
+10. **Save and view** — save your changes and navigate to the **Site Directory** to reload your site by clicking the **Go to Site** icon. Notice the new icon in the side menu.
 
    ![Site with side navigation showing updated heart icon for the Get Started space](./images/Image_07_0080.png)
 
@@ -59,5 +59,7 @@ After completing these steps the site navigation will switch from a top bar to a
 ## Summary
 
 You have switched the site navigation to a side panel and updated the space icon. Both changes take effect immediately for all users of the site.
+
+If you want, continue now to - [Exercise 8 (Optional) - Create, Package, and Deploy Your Own UI Integration Card](../ex8/README.md)
 
 Thank you for participating in **AD165 - Boost user productivity with AI assistant Joule and personal My Space for SAP Build Work Zone**.
