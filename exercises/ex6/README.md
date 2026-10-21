@@ -70,8 +70,6 @@ Click through one app to browse.
 
 ![Screenshot 6053](images/image_6053.png)
 
-   - **To Do** — your Task Center items
-
 ---
 
 ## Summary
