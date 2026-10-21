@@ -1,9 +1,9 @@
 # Exercise 4 - Enable My Space
 
-In this exercise, you will enable the **My Space** feature for your site. My Space is a personal, user-owned landing page that every user can customize independently — adding cards, widgets, and apps that are most relevant to their daily work. Once enabled by an administrator, users can build and maintain their own page directly in the site.
+In this exercise, you will enable the **My Space** feature for your site. My Space is a personal, user-owned landing page that every user can customize independently — adding cards and apps that are most relevant to their daily work. Once enabled by an administrator, users can build and maintain their own page directly in the site.
 
 > [!NOTE]
-> My Space is a key productivity feature in SAP Build Work Zone that empowers end users to create a personalized entry point tailored to their own needs. Unlike other spaces and pages in the menu, which are shared and cannot be modified by individual users, My Space is private and individual. Users can add any cards or widgets they have access to, choose their layout, and rearrange content at any time. While shared spaces ensure everyone gets the right role-based content, My Space removes the remaining friction that is individual — the specific items each person checks first every morning.
+> My Space is a key productivity feature in SAP Build Work Zone that empowers end users to create a personalized entry point tailored to their own needs. Unlike other spaces and pages in the menu, which are shared and cannot be modified by individual users, My Space is private and individual. Users can add any cards they have access to, choose their layout, and rearrange content at any time. While shared spaces ensure everyone gets the right role-based content, My Space removes the remaining friction that is individual — the specific items each person checks first every morning.
 
 ---
 
