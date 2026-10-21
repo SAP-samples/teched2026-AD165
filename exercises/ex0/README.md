@@ -4,6 +4,10 @@ Welcome to the hands-on session **AD165 - Boost user productivity with AI assist
 
 In this introductory section, you will get an overview of the session and the tools you will be working with. Please review the introductory slides provided by your instructors before starting Exercise 1.
 
+<img width="1924" height="1040" alt="image" src="https://github.com/user-attachments/assets/ba705d73-89bb-4f55-8d76-14d05fc361fc" />
+
+<img width="1924" height="1033" alt="image" src="https://github.com/user-attachments/assets/66bfd564-159a-427a-bf11-a3fb5c681150" />
+
 ---
 
 ### What You Will Build
