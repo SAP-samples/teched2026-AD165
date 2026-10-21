@@ -3,7 +3,7 @@
 In this exercise, you will create a custom page and organize it in a space to make it visible in the site navigation, then assign it to a role so the right users can access it. You will create an entry page for employees with some self services and some purchaser specific cards.
 
 > [!NOTE]
-> In SAP Build Work Zone sites, **spaces** provide the top-level navigation structure, and **pages** contain the actual content — widgets, cards, and apps. A space can group multiple related pages together. Spaces and pages are assigned to roles, which controls who can see them.
+> In SAP Build Work Zone sites, **spaces** provide the top-level navigation structure, and **pages** contain the actual content — cards and apps. A space can group multiple related pages together. Spaces and pages are assigned to roles, which controls who can see them.
 
 ---
 

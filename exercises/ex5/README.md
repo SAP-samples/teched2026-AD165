@@ -1,6 +1,6 @@
 # Exercise 5 - Explore the Site as an End User
 
-In this exercise, you switch from the administrator role to the end-user role and experience the site you have built. You will explore what the AI assistant Joule can do for you, then navigate to My Space and start building your own personal page using the cards and widgets available to you.
+In this exercise, you switch from the administrator role to the end-user role and experience the site you have built. You will explore what the AI assistant Joule can do for you, then navigate to My Space and start building your own personal page using the cards available to you.
 
 ---
 
@@ -68,7 +68,7 @@ After completing these steps My Space will be visible in the site navigation and
 
 ---
 
-My Space is a personal page that each user can configure independently — adding the cards, tiles, and widgets most relevant to their daily work. Before it appears in the navigation, each user must enable it once in their personal settings.
+My Space is a personal page that each user can configure independently — adding the cards and tiles most relevant to their daily work. Before it appears in the navigation, each user must enable it once in their personal settings.
 
 
 ### Steps
