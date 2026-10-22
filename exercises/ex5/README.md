@@ -16,12 +16,11 @@ After completing these steps you will have discovered some key capabilities of J
 
 ---
 
-### Scenario: Managing In-House Repairs
+### Scenario: Investigating a Supplier Invoice
 
-As a purchaser, you are responsible for managing procurement activities and supporting maintenance processes. A colleague has reported an equipment issue that requires an in-house repair. You now want to find the right application to create a repair request and track existing repairs.
+A supplier contacts you requesting an update on some invoices. As a Procurement Manager, you need to review the invoice details and check other invoices associated with specific purchase order.
 
-Let's ask **Joule** to help with this scenario.
-  
+Instead of navigating through multiple applications, you use **Joule** to quickly retrieve the relevant information from SAP S/4HANA.
 
 ### Steps
 
@@ -35,29 +34,31 @@ Let's ask **Joule** to help with this scenario.
 
 3. Enter the following prompt:
 
-   **Prompt:** `How can I manage my in-house repairs?`
+   **Prompt:** Can you look for details for supplier invoice 5107253170? 
 
-   Review the summary provided by Joule about managing in-house repairs.
+   Select the following **option:** Display Invoice Details
 
 ![Screenshot 003](images/image_06_003.png) 
 
-4. In the Joule response, click the suggested: **In-House Repair**
+4. When asked for the fiscal year, provide this **answer:** 2026
+
+   Browse through the Invoice details. 
 
 ![Screenshot 004](images/image_06_004.png)
 
-5. Joule will display several options. Click **Create** to proceed.
+5. Next, give Joule the following prompt:
+
+   **Prompt:** Show me all invoices for PO 4500029946?
+
+   Click on **Open** to get more details. 
 
 ![Screenshot 005](images/image_06_005.png)   
 
-6. Click **Open** to open the application.
+6. The application will open in a new tab, browse through the full details. 
 
 ![Screenshot 006](images/image_06_006.png)  
 
-7. The application will open in a new tab, browse the list of existing in-house repairs.
-
-![Screenshot 007](images/image_06_007.png)   
-
-8. Close the tab now. 
+7. Close the tab now. 
 
 ---
 
