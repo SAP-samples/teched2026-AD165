@@ -20,9 +20,9 @@ After completing these steps, you will have confirmed that the Joule Work Mobile
 
 2. **Navigate to User Capabilities** — go to the **User Capabilities** tab in the site settings.
 
-3. **Check the Joule Work Mobile App setting** — locate the **Joule Work Mobile App** checkbox and make sure it is selected. This is the default setting for new sites. Otherwise, turn it on now. 
+3. **Check the Joule Work Mobile App setting** — locate the **Joule Work Mobile App** checkbox and make sure it is selected. This is the default setting for new sites. Otherwise, turn it on now.
 
-
+   ![User Capabilities tab with Joule Work Mobile App enabled](images/Image_06_0006.png)
 
 ---
 
@@ -54,23 +54,23 @@ After completing these steps you will have installed the SAP Joule Work app on y
 6. **Enter your credentials** — on your mobile device, use the switch enter the same user credentials you used to log in to the workshop environment.
 
 7. **Explore the app** — once logged in, explore the home screen and the four main tabs:
-   - **Home** — your personal start page with quick access to Joule and your favourites
+   - **Home** — your personal start page with quick access to Joule and your favorites
      
-![Screenshot 6050](images/image_6050.png)
+![Screenshot 6050](images/Image_06_0050.png)
 
    - **Joule** — a dedicated tab for interacting with the AI assistant
 
 ![Screenshot 6051](images/image_6051.png)
 
-   - **Apps** — all the spaces and pages you know from the desktop experience
+   - **Apps** — now as well structured in the spaces and pages you know from the desktop experience. Note that apps that do not support rendering on mobile devices are filtered and will not be displayed. 
 
 ![Screenshot 6052](images/image_6052.png)
 
-Click through one app to browse. 
+   If you want, launch one of the apps.
 
 ![Screenshot 6053](images/image_6053.png)
 
-   - **To Do** — your Task Center items
+   - **To Do** — if SAP Task Center is configured, you would see an additional tab on the bottom of the app as well as a To-Do's list under Home. Since Task Center was not configured as part of this exercise, this tab is not available now.
 
 ---
 
