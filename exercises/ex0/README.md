@@ -50,6 +50,8 @@ As an end user, you will then explore the site you have built, interact with Jou
 
 ## Exercise Overview
 
+![Workshop Flow](images/workshop_flow.png)
+
 | Exercise | Title | Role |
 |---|---|---|
 | 1 | Create a Site and Configure Basic Settings | Administrator |
