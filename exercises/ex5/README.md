@@ -74,19 +74,23 @@ Instead of manually checking purchase orders in SAP S/4HANA, you use **Joule** t
 
 Select the supplier you are looking for: ```EV Parts Inc. (USSU_V8000)```
 
-Image 
+![Screenshot](images/image_06_0077.png)
 
-2. Joule will display the list of purchase orders with an Output error status.
+2. Joule will do all the work in the background and display the list of purchase orders with an Output error status.
 
-Image 
+![Screenshot](images/image_06_0088.png)
 
 3. Scroll down and click on the suggested button: ```Open in App```
 
-Image 
+![Screenshot](images/image_06_0099.png)
 
-4. The application will open in a new tab. You can quickly identify purchasing documents affected by output errors and determine which ones may require further investigation.
+4. The application opens in a new tab, where you can quickly identify purchasing documents affected by output errors. You can also open individual purchase orders to investigate the issues in more detail.
 
-Image 
+![Screenshot](images/image_06_0100.png)
+
+5. Close the tab now.
+
+In these scenarios, you used ***Joule*** to retrieve supplier invoice details, find invoices associated with a purchase order, and identify purchase order output errors. You experienced how natural language interactions can simplify procurement tasks and provide quick access to relevant information from SAP S/4HANA.
 
 ---
 
