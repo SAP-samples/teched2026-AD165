@@ -34,29 +34,29 @@ Instead of navigating through multiple applications, you use **Joule** to quickl
 
 3. Enter the following prompt:
 
-   **Prompt:** Can you look for details for supplier invoice 5107253170? 
+   **Prompt:** ```Can you look for details for supplier invoice 5107253170?``` 
 
-   Select the following **option:** Display Invoice Details
+   Select the following **option:** ```Display Invoice Details```
 
-![Screenshot 003](images/image_06_003.png) 
+![Screenshot 003](images/image_06_0033.png) 
 
-4. When asked for the fiscal year, provide this **answer:** 2026
+4. When asked for the fiscal year, provide this **answer:** ```2026```
 
    Browse through the Invoice details. 
 
-![Screenshot 004](images/image_06_004.png)
+![Screenshot 004](images/image_06_0044.png)
 
 5. Next, give Joule the following prompt:
 
-   **Prompt:** Show me all invoices for PO 4500029946?
+   **Prompt:** ```Show me all invoices for PO 4500029946?```
 
    Click on **Open** to get more details. 
 
-![Screenshot 005](images/image_06_005.png)   
+![Screenshot 005](images/image_06_0055.png)   
 
 6. The application will open in a new tab, browse through the full details. 
 
-![Screenshot 006](images/image_06_006.png)  
+![Screenshot 006](images/image_06_0066.png)  
 
 7. Close the tab now. 
 
