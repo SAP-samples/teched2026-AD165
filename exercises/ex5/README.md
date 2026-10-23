@@ -16,7 +16,7 @@ After completing these steps you will have discovered some key capabilities of J
 
 ---
 
-### Scenario: Investigating a Supplier Invoice
+### Joule Scenario 1: Investigating a Supplier Invoice
 
 A supplier contacts you requesting an update on some invoices. As a Procurement Manager, you need to review the invoice details and check other invoices associated with specific purchase order.
 
@@ -59,6 +59,34 @@ Instead of navigating through multiple applications, you use **Joule** to quickl
 ![Screenshot 006](images/image_06_0066.png)  
 
 7. Close the tab now. 
+
+### Joule Scenario 2: Analyzing Purchase Order Output Errors
+
+As a Procurement Manager, you want to make sure that purchase orders are successfully communicated to suppliers. You suspect that some purchase orders for EV Parts Inc. may have encountered errors during output processing, preventing them from reaching the supplier.
+
+Instead of manually checking purchase orders in SAP S/4HANA, you use **Joule** to identify any affected purchase order items and investigate potential issues.
+
+### Steps
+
+1. As Joule is already open in your site. Lets begin!
+
+**Prompt:** ```Are there any Purchase Order Items from Supplier EV Parts Inc in an Output error?```
+
+Select the supplier you are looking for: ```EV Parts Inc. (USSU_V8000)```
+
+Image 
+
+2. Joule will display the list of purchase orders with an Output error status.
+
+Image 
+
+3. Scroll down and click on the suggested button: ```Open in App```
+
+Image 
+
+4. The application will open in a new tab. You can quickly identify purchasing documents affected by output errors and determine which ones may require further investigation.
+
+Image 
 
 ---
 
