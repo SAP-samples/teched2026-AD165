@@ -37,19 +37,19 @@ After completing these steps you will have installed the SAP Joule Work app on y
 
 1. **Open the User settings in your site** — navigate to your site by clicking **Go to site**. In the site, click the **User Icon** in the shell bar, then select **Settings**.
 
-   ![Screenshot 001](images/Image_06_0010.png)
+   <img src="images/Image_06_0010.png" width="450" alt="Screenshot 001">
 
 2. **Open the Joule Work Mobile App tab** — in the Settings dialog, find and open the **Joule Work Mobile App** tab.
 
 3. **Select your operating system** — choose either **iOS** or **Android** depending on your device.
 
-   ![Screenshot 002](images/Image_06_0020.png)
+   <img src="images/Image_06_0020.png" width="450" alt="Screenshot 002">
 
 4. **Install the app** — if you do not have the app installed on your device yet, use the QR code to open the App Store (iOS) or Play Store (Android) and install the **SAP Joule Work** app on your device.
 
 5. **Register to the site** — once the app is installed, go back to the desktop and switch to **Register** in the *Joule Work Mobile App* settings to scan a second QR code to register your device to this Work Zone site.
 
-   ![Screenshot 003](images/Image_06_0030.png)
+   <img src="images/Image_06_0030.png" width="450" alt="Screenshot 003">
 
 6. **Enter your credentials** — on your mobile device, use the switch enter the same user credentials you used to log in to the workshop environment.
 
