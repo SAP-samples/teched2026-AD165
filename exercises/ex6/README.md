@@ -54,21 +54,24 @@ After completing these steps you will have installed the SAP Joule Work app on y
 6. **Enter your credentials** — on your mobile device, use the switch enter the same user credentials you used to log in to the workshop environment.
 
 7. **Explore the app** — once logged in, explore the home screen and the four main tabs:
+
    - **Home** — your personal start page with quick access to Joule and your favorites
-     
-![Screenshot 6050](images/Image_06_0050.png)
+
+     <img src="images/image_6050.png" width="220" alt="Home tab">
 
    - **Joule** — a dedicated tab for interacting with the AI assistant
 
-![Screenshot 6051](images/image_6051.png)
+     <img src="images/image_6051.png" width="220" alt="Joule tab">
 
-   - **Apps** — now as well structured in the spaces and pages you know from the desktop experience. Note that apps that do not support rendering on mobile devices are filtered and will not be displayed. 
+   - **Apps** — structured in the spaces and pages you know from the desktop experience. Note that apps that do not support rendering on mobile devices are filtered and will not be displayed.
 
-![Screenshot 6052](images/image_6052.png)
+     <img src="images/image_6052.png" width="220" alt="Apps tab">
 
-   If you want, launch one of the apps.
+     If you want, launch one of the apps.
 
-![Screenshot 6053](images/image_6053.png)
+     <img src="images/image_6053.png" width="220" alt="App launched on mobile">
+
+   - **To Do** — if SAP Task Center is configured, users see an additional tab at the bottom of the app as well as a To-Do list under Home. Since Task Center was not configured as part of this exercise, this tab is not available now.
 
 ---
 
