@@ -70,8 +70,6 @@ After completing these steps you will have installed the SAP Joule Work app on y
 
 ![Screenshot 6053](images/image_6053.png)
 
-   - **To Do** — if SAP Task Center is configured, you would see an additional tab on the bottom of the app as well as a To-Do's list under Home. Since Task Center was not configured as part of this exercise, this tab is not available now.
-
 ---
 
 ## Summary

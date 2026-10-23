@@ -1,5 +1,8 @@
 # AD165 - Boost User Productivity with AI Assistant Joule and Personal My Space for SAP Build Work Zone
 
+<img width="1588" height="888" alt="image" src="https://github.com/user-attachments/assets/bb62e02d-017d-46b9-997a-697cc66b9b31" />
+
+
 ## Description
 
 This repository contains the material for the SAP TechEd 2026 session **AD165 - Boost user productivity with AI assistant Joule and personal My Space for SAP Build Work Zone**.
