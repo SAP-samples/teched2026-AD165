@@ -50,7 +50,7 @@ Instead of navigating through multiple applications, you use **Joule** to quickl
 
    **Prompt:** ```Show me all invoices for PO 4500029946?```
 
-   Click on **Open** to get more details. 
+   Joule will provide a list of all invoices, click on **Open** to get more details on one specific invoice. 
 
 ![Screenshot 005](images/image_06_0055.png)   
 
