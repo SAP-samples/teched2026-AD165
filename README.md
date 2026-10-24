@@ -63,7 +63,7 @@ By the end of this session you will have:
     - [Exercise 8.4 - Upload the Content Package](exercises/ex8#exercise-84-upload)
     - [Exercise 8.5 - Add the Card to Your Page](exercises/ex8#exercise-85-add-to-page)
     - [Exercise 8.6 - Assign the Package Role to Your Site](exercises/ex8#exercise-86-assign-role)
-    - [Exercise 8.7 - Preview Your Site](exercises/ex8#exercise-87-preview)
+    - [Exercise 8.7 - Access Your Site as an End User](exercises/ex8#exercise-87-preview)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
