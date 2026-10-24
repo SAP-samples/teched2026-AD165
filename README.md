@@ -12,7 +12,7 @@ This repository contains the material for the SAP TechEd 2026 session **AD165 - 
 In this hands-on session, you will explore how SAP Build Work Zone enables organizations to create modern, AI-powered digital workplace experiences. Starting from scratch, you will set up a Work Zone site, configure key features including the AI assistant Joule, integrate business content from backend systems, and build custom pages and spaces. You will then activate the personal My Space feature and step into the end-user role to experience Joule and My Space in action. If time permits, you can also explore optional exercises covering mobile access, navigation customization, and building your own UI integration card. Every feature you configure maps directly to a user productivity gain — less time switching apps, less hunting for information, and a personalized experience that adapts to individual work patterns.
 
 By the end of this session you will have:
-- Created and configured a Work Zone site with Joule, language, shell bar, and display settings
+- Created and configured a Work Zone site with Joule, languages, custom logo, and other settings
 - Connected and surfaced business content through federation and channel management
 - Built a custom Work Zone page and space and assigned them to a role
 - Enabled My Space so end users can build their own personal landing page
