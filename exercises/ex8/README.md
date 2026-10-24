@@ -367,7 +367,7 @@ After completing these steps the role from your package will be assigned to your
    ![Role Assignement tab](./images/Image_08_0260.png)
 ---
 
-## <a id="exercise-87-preview"></a> Exercise 8.7 - Preview Your Site
+## <a id="exercise-87-preview"></a> Exercise 8.7 - Access Your Site as an End User
 
 ### What you'll achieve
 After completing these steps you will see your card live in the site.
