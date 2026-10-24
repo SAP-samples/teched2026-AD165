@@ -7,7 +7,8 @@ In this exercise, you will first enable the Joule Work Mobile App feature for yo
 
 ---
 
-## <a id="exercise-61-enable-joule-work-mobile-app"></a> Exercise 6.1 - Enable the Joule Work Mobile App for Your Site
+<a id="exercise-61-enable-joule-work-mobile-app"></a>
+## Exercise 6.1 - Enable the Joule Work Mobile App for Your Site
 
 ### What you'll achieve
 After completing these steps, you will have confirmed that the Joule Work Mobile App feature is active for your site, allowing users to connect to it from their mobile device.
@@ -26,7 +27,8 @@ After completing these steps, you will have confirmed that the Joule Work Mobile
 
 ---
 
-## <a id="exercise-62-access-on-mobile"></a> Exercise 6.2 - Access Your Site on the Mobile App
+<a id="exercise-62-access-on-mobile"></a>
+## Exercise 6.2 - Access Your Site on the Mobile App
 
 ### What you'll achieve
 After completing these steps you will have installed the SAP Joule Work app on your mobile device and registered it to your Work Zone site.

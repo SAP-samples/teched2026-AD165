@@ -7,7 +7,8 @@ In this exercise, you will create a custom page and organize it in a space to ma
 
 ---
 
-## <a id="exercise-31-create-a-new-page"></a> Exercise 3.1 - Create a New Page
+<a id="exercise-31-create-a-new-page"></a>
+## Exercise 3.1 - Create a New Page
 
 ### What you'll achieve
 By completing these steps, you've built a Work Zone page that brings employee self-service apps and purchasing cards together in one place. This is the same approach you'd use to consolidate content from multiple sources — different backend systems, custom apps deployed on SAP BTP, or any combination of both. The cards surface key information directly on the page, so users get what they need at a glance — without having to navigate somewhere else first.
@@ -61,7 +62,8 @@ By completing these steps, you've built a Work Zone page that brings employee se
 
 ---
 
-## <a id="exercise-32-create-a-space"></a> Exercise 3.2 - Create a Space and Assign the Page
+<a id="exercise-32-create-a-space"></a>
+## Exercise 3.2 - Create a Space and Assign the Page
 
 ### What you'll achieve
 After completing these steps your page will be organized inside a space that can be surfaced in the site navigation.
@@ -87,7 +89,8 @@ After completing these steps your page will be organized inside a space that can
 
 ---
 
-## <a id="exercise-33-add-to-a-custom-role"></a> Exercise 3.3 - Add the Space to a Pre-Configured Custom Role
+<a id="exercise-33-add-to-a-custom-role"></a>
+## Exercise 3.3 - Add the Space to a Pre-Configured Custom Role
 
 ### What you'll achieve
 After completing these steps the space will be visible to users who have the custom role assigned, making it accessible when they open your site.
@@ -118,7 +121,8 @@ Because you do not have access to the BTP cockpit in this workshop, a custom rol
 
 ---
 
-## <a id="exercise-34-assign-role-to-site"></a> Exercise 3.4 - Assign the Custom Role to Your Site
+<a id="exercise-34-assign-role-to-site"></a>
+## Exercise 3.4 - Assign the Custom Role to Your Site
 
 ### What you'll achieve
 After completing these steps the custom role will be assigned to your site, making the space visible to users who have that role.

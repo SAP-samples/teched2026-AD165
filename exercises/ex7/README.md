@@ -7,7 +7,8 @@ In this optional exercise, you will switch the site navigation from the default 
 
 ---
 
-## <a id="exercise-71-side-navigation"></a> Exercise 7.1 - Switch to Side Navigation and Update the Space Icon
+<a id="exercise-71-side-navigation"></a>
+## Exercise 7.1 - Switch to Side Navigation and Update the Space Icon
 
 ### What you'll achieve
 After completing these steps the site navigation will switch from a top bar to a side panel, and your custom space will display a custom icon in the side menu.

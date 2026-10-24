@@ -4,7 +4,8 @@ In this exercise, you switch from the administrator role to the end-user role an
 
 ---
 
-## <a id="exercise-51-explore-joule"></a> Exercise 5.1 - Explore What Joule Can Do for You
+<a id="exercise-51-explore-joule"></a>
+## Exercise 5.1 - Explore What Joule Can Do for You
 
 ### What you'll achieve
 After completing these steps you will have discovered some key capabilities of Joule as an end user working within Work Zone.
@@ -94,7 +95,8 @@ In these scenarios, you used ***Joule*** to retrieve supplier invoice details, f
 
 ---
 
-## <a id="exercise-52-enable-my-space"></a> Exercise 5.2 - Enable My Space
+<a id="exercise-52-enable-my-space"></a>
+## Exercise 5.2 - Enable My Space
 
 ### What you'll achieve
 After completing these steps My Space will be visible in the site navigation and ready for you to personalise.
@@ -124,7 +126,8 @@ My Space is a personal page that each user can configure independently — addin
 
 ---
 
-## <a id="exercise-53-go-to-my-space"></a> Exercise 5.3 - Start Building Your Personal Page
+<a id="exercise-53-go-to-my-space"></a>
+## Exercise 5.3 - Start Building Your Personal Page
 
 ### What you'll achieve
 After completing these steps you will have created your own personal page using cards and tiles in My Space.

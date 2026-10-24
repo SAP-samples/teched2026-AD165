@@ -7,7 +7,8 @@ In this exercise, you will first explore the admin environment of SAP Build Work
 
 ---
 
-## <a id="exercise-21-admin-environment"></a> Exercise 2.1 - Get to Know the Admin Environment
+<a id="exercise-21-admin-environment"></a>
+## Exercise 2.1 - Get to Know the Admin Environment
 
 ### What you'll achieve
 After completing these steps you will understand the admin environment of SAP Build Work Zone, standard edition, and know where to manage site content.
@@ -45,7 +46,8 @@ Manage features that affect all the sites in a subaccount, e.g. notification set
 
 ---
 
-## <a id="exercise-22-get-to-know-the-channel-manager"></a> Exercise 2.2 - Get to Know the Channel Manager and Learn About Federation
+<a id="exercise-22-get-to-know-the-channel-manager"></a>
+## Exercise 2.2 - Get to Know the Channel Manager and Learn About Federation
 
 ### What you'll achieve
 After completing these steps you will understand how the Channel Manager works and what federation means in the context of SAP Build Work Zone.
@@ -104,7 +106,8 @@ The key benefit: **content ownership stays in the backend system**. Roles, apps,
 
 ---
 
-## <a id="exercise-23-assign-content"></a> Exercise 2.3 - Assign Roles and Content Packages to Your Site
+<a id="exercise-23-assign-content"></a>
+## Exercise 2.3 - Assign Roles and Content Packages to Your Site
 
 ### What you'll achieve
 After completing these steps, selected roles from the SAP S/4HANA Cloud channel and two content packages will be assigned to your Work Zone site, making the corresponding apps available to users with the right role.
@@ -148,7 +151,8 @@ In this exercise you assign individual roles from the S/4HANA channel to your si
 
 ---
 
-## <a id="exercise-24-explore-content-manager"></a> Exercise 2.4 - Explore Federated Content in the Content Manager
+<a id="exercise-24-explore-content-manager"></a>
+## Exercise 2.4 - Explore Federated Content in the Content Manager
 
 ### What you'll achieve
 After completing these steps you will have seen how federated content from the SAP S/4HANA Cloud channel appears in the Content Manager, and you will understand the structure of a federated role.
@@ -184,7 +188,8 @@ The Content Manager gives administrators a unified view of all content items ava
 
 ---
 
-## <a id="exercise-25-preview-your-site"></a> Exercise 2.5 - Open Your Site in Runtime
+<a id="exercise-25-preview-your-site"></a>
+## Exercise 2.5 - Open Your Site in Runtime
 
 ### What you'll achieve
 After completing these steps you will have explored the Work Zone standard runtime experience with federated S/4HANA content.

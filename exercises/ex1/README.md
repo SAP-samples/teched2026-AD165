@@ -7,7 +7,8 @@ In this exercise, you will create a brand-new Work Zone site using the New Site 
 
 ---
 
-## <a id="exercise-11-create-a-new-site"></a> Exercise 1.1 - Create a New Site (New Site Experience)
+<a id="exercise-11-create-a-new-site"></a>
+## Exercise 1.1 - Create a New Site (New Site Experience)
 
 ### What you'll achieve
 After completing these steps you will have created a new Work Zone site using the modern site creation flow.
@@ -33,7 +34,8 @@ The site is created and you can now get started with defining some key propertie
 
 ---
 
-## <a id="exercise-12-new-shell-bar"></a> Exercise 1.2 - Assign a Custom Logo to your Site
+<a id="exercise-12-new-shell-bar"></a>
+## Exercise 1.2 - Assign a Custom Logo to your Site
 
 ### What you'll achieve
 After completing these steps your site will display a custom logo, a site label, and the new shell bar will be confirmed active.
@@ -75,7 +77,8 @@ When a site is created you land directly on **Site Settings**, with the **Proper
 
 ---
 
-## <a id="exercise-13-display-settings"></a> Exercise 1.3 - Configure Display Settings
+<a id="exercise-13-display-settings"></a>
+## Exercise 1.3 - Configure Display Settings
 
 ### What you'll achieve
 After completing these steps your site will use the modern Spaces and Pages navigation experience.
@@ -102,7 +105,8 @@ The **Display** tab controls how the site is presented to end users and where ce
 
 ---
 
-## <a id="exercise-14-configure-languages"></a> Exercise 1.4 - Configure Languages
+<a id="exercise-14-configure-languages"></a>
+## Exercise 1.4 - Configure Languages
 
 ### What you'll achieve
 After completing these steps your site will support multiple languages.
@@ -130,7 +134,8 @@ Two changes have recently been introduced to the language selection which is ava
 
 ---
 
-## <a id="exercise-15-enable-joule"></a> Exercise 1.5 - Enable Joule
+<a id="exercise-15-enable-joule"></a>
+## Exercise 1.5 - Enable Joule
 
 ### What you'll achieve
 After completing these steps the AI assistant Joule will be activated for your site. Users will be able to ask Joule questions, get help with navigation, and receive contextual assistance directly within the site.

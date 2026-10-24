@@ -7,7 +7,8 @@ In this exercise, you will enable the **My Space** feature for your site. My Spa
 
 ---
 
-## <a id="exercise-41-enable-my-space"></a> Exercise 4.1 - Enable My Space for Your Site
+<a id="exercise-41-enable-my-space"></a>
+## Exercise 4.1 - Enable My Space for Your Site
 
 ### What you'll achieve
 After completing these steps My Space will be available to all users of your site.

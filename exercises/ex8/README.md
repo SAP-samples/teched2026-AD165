@@ -25,7 +25,8 @@ Your dev space is created and now starting.
 
 ---
 
-## <a id="exercise-81-card-explorer"></a> Exercise 8.1 (Optional) - Explore the Card Explorer
+<a id="exercise-81-card-explorer"></a>
+## Exercise 8.1 (Optional) - Explore the Card Explorer
 
 ### What you'll achieve
 After completing this optional exercise you will be familiar with the Card Explorer and understand the basic structure of a UI integration card manifest.
@@ -51,7 +52,8 @@ The Card Explorer is an interactive playground for UI integration cards. It lets
 
 ---
 
-## <a id="exercise-82-get-card"></a> Exercise 8.2 - Edit and Download Your Card from the Card Explorer
+<a id="exercise-82-get-card"></a>
+## Exercise 8.2 - Edit and Download Your Card from the Card Explorer
 
 ### What you'll achieve
 After completing these steps you will have a card manifest with a unique ID ready to be added to a content package.
@@ -108,7 +110,8 @@ You immediately see your changes in the preview.
 
 ---
 
-## <a id="exercise-83-bas-package"></a> Exercise 8.3 - Create a Content Package in SAP Business Application Studio
+<a id="exercise-83-bas-package"></a>
+## Exercise 8.3 - Create a Content Package in SAP Business Application Studio
 
 ### What you'll achieve
 After completing these steps you will have a `package.zip` content package ready to upload to Work Zone.
@@ -269,7 +272,8 @@ With the card files in place and `content.json` updated, you are ready to produc
 
 ---
 
-## <a id="exercise-84-upload"></a> Exercise 8.4 - Upload the Content Package to SAP Build Work Zone
+<a id="exercise-84-upload"></a>
+## Exercise 8.4 - Upload the Content Package to SAP Build Work Zone
 
 ### What you'll achieve
 After completing these steps your card package will be available in the Content Manager, ready to be placed on a page.
@@ -308,7 +312,8 @@ After completing these steps your card package will be available in the Content 
 
 ---
 
-## <a id="exercise-85-add-to-page"></a> Exercise 8.5 - Add the Card to Your Page
+<a id="exercise-85-add-to-page"></a>
+## Exercise 8.5 - Add the Card to Your Page
 
 ### What you'll achieve
 After completing these steps your card will appear on the page you built in Exercise 3.
@@ -339,7 +344,8 @@ After completing these steps your card will appear on the page you built in Exer
 
 ---
 
-## <a id="exercise-86-assign-role"></a> Exercise 8.6 - Assign the Package Role to Your Site
+<a id="exercise-86-assign-role"></a>
+## Exercise 8.6 - Assign the Package Role to Your Site
 
 ### What you'll achieve
 After completing these steps the role from your package will be assigned to your site, making the card visible to users who have that role.
@@ -367,7 +373,8 @@ After completing these steps the role from your package will be assigned to your
    ![Role Assignement tab](./images/Image_08_0260.png)
 ---
 
-## <a id="exercise-87-preview"></a> Exercise 8.7 - Access Your Site as an End User
+<a id="exercise-87-preview"></a>
+## Exercise 8.7 - Access Your Site as an End User
 
 ### What you'll achieve
 After completing these steps you will see your card live in the site.
