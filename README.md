@@ -1,6 +1,6 @@
 # AD165 - Boost User Productivity with AI Assistant Joule and Personal My Space for SAP Build Work Zone
 
-<img width="1588" height="888" alt="image" src="https://github.com/user-attachments/assets/bb62e02d-017d-46b9-997a-697cc66b9b31" />
+<img width="1588" height="888" alt="image" src="exercises/ex0/image_00_001.png" />
 
 
 ## Description
